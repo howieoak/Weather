@@ -1,0 +1,21 @@
+﻿@model Weather.ModelBinders.SunriseViewModel
+
+@{
+    ViewBag.Title = "Sunrise";
+}
+
+<h2>Sunrise</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary()
+    <p>Longitude: @Html.TextBoxFor(x => x.SunriseFormBinder.Longitude) </p>
+    <p>Latitude: @Html.TextBoxFor(x => x.SunriseFormBinder.Latitude) </p>
+    <p>Dato: @Html.TextBoxFor(x => x.SunriseFormBinder.Date) (YYYY-MM-DD) </p>
+    @*<p>Longitude: @Html.TextBox("Longitude") </p>
+    <p>Latitude: @Html.TextBox("Latitude") </p>
+    <p>Dato: @Html.TextBox("Date") (YYYY-MM-DD) </p>*@
+    <input type="submit" value="Hent soloppgang" />
+}
+
+<h5>The sunrise time is: @Html.DisplayTextFor(x => x.SunriseTime)</h5>

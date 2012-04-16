@@ -1,0 +1,89 @@
+﻿@model IEnumerable<Weather.Model.Domain.Place>
+
+@{
+    ViewBag.Title = "Places";
+}
+
+@section Style
+{
+<style type="text/css"> 
+    .ui-button { font-size: .8em; } 
+</style>
+}
+
+<h2>Places</h2>
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.PlaceName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PlaceType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CountryCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.State)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.County)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Latitude)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Longitude)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.PlaceName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PlaceType)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CountryCode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.State)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.County)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Latitude)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Longitude)
+        </td>
+        <td>
+            @using (Html.BeginForm("Place", "Location"))
+            {
+                @Html.Hidden("id", @item.PlaceId)
+                <input type="submit" value="Vis detalj" />
+            }
+        </td>
+        <td>
+            @using (Html.BeginForm("Forecast", "Weather"))
+            {
+                @Html.Hidden("id", @item.PlaceId)
+                <input type="submit" value="Vis vær data" />
+            }
+        </td>
+
+    </tr>
+}
+
+</table>
+
+
+@section Script
+{
+    <script src="@Url.Content("~/Scripts/location_places.js")" type="text/javascript"></script>
+}

@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<h2>Coming Soon!</h2>
+
+
+@*
+ @using (Ajax.BeginForm("Index", "Home", 
+            new AjaxOptions { HttpMethod = "GET", 
+                              InsertionMode = InsertionMode.Replace, 
+                              UpdateTargetId = "searchResults" }))
+ {
+    <input name="q" type="text" />
+    <input type="submit" value="Search" />
+ }
+
+ @Html.Partial("_RestaurantList", Model)
+
+*@
+
+
+@section Footer {
+
+    <p>This is the footer</p>    
+}
+

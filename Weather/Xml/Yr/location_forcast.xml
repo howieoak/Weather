@@ -1,0 +1,1140 @@
+﻿<weatherdata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://api.met.no/weatherapi/locationforecast/1.8/schema" created="2012-04-14T20:16:13Z">
+  <meta>
+    <model name="EC.GEO.0.25" termin="2012-04-14T12:00:00Z" runended="2012-04-14T19:02:54Z" nextrun="2012-04-15T08:00:00Z" from="2012-04-14T21:00:00Z" to="2012-04-24T12:00:00Z" />
+  </meta>
+  <product class="pointData">
+    <time datatype="forecast" from="2012-04-14T21:00:00Z" to="2012-04-14T21:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="27.1"/>
+        <windDirection id="dd" deg="78.0" name="E"/>
+        <windSpeed id="ff" mps="5.1" beaufort="3" name="Lett bris"/>
+        <humidity value="77.4" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1009.7"/>
+        <cloudiness id="NN" percent="25.0"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="25.0"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-14T18:00:00Z" to="2012-04-14T21:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="LIGHTCLOUD" number="2"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-14T15:00:00Z" to="2012-04-14T21:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="LIGHTCLOUD" number="2"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-15T00:00:00Z" to="2012-04-15T00:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="26.9"/>
+        <windDirection id="dd" deg="87.2" name="E"/>
+        <windSpeed id="ff" mps="5.0" beaufort="3" name="Lett bris"/>
+        <humidity value="75.1" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1008.5"/>
+        <cloudiness id="NN" percent="77.3"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="67.2"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="45.3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-14T21:00:00Z" to="2012-04-15T00:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="PARTLYCLOUD" number="3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-14T18:00:00Z" to="2012-04-15T00:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="PARTLYCLOUD" number="3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-15T03:00:00Z" to="2012-04-15T03:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="27.1"/>
+        <windDirection id="dd" deg="89.1" name="E"/>
+        <windSpeed id="ff" mps="4.5" beaufort="3" name="Lett bris"/>
+        <humidity value="71.1" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1010.5"/>
+        <cloudiness id="NN" percent="89.1"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="5.5"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="88.3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-15T00:00:00Z" to="2012-04-15T03:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="PARTLYCLOUD" number="3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-14T21:00:00Z" to="2012-04-15T03:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="PARTLYCLOUD" number="3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-15T06:00:00Z" to="2012-04-15T06:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="27.8"/>
+        <windDirection id="dd" deg="92.5" name="E"/>
+        <windSpeed id="ff" mps="4.3" beaufort="3" name="Lett bris"/>
+        <humidity value="68.0" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1011.7"/>
+        <cloudiness id="NN" percent="42.2"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="13.3"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="34.4"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-15T03:00:00Z" to="2012-04-15T06:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="PARTLYCLOUD" number="3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-15T00:00:00Z" to="2012-04-15T06:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="PARTLYCLOUD" number="3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-15T09:00:00Z" to="2012-04-15T09:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.4"/>
+        <windDirection id="dd" deg="80.7" name="E"/>
+        <windSpeed id="ff" mps="3.8" beaufort="3" name="Lett bris"/>
+        <humidity value="64.8" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1010.2"/>
+        <cloudiness id="NN" percent="58.6"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="37.5"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="32.8"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-15T06:00:00Z" to="2012-04-15T09:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="PARTLYCLOUD" number="3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-15T03:00:00Z" to="2012-04-15T09:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="PARTLYCLOUD" number="3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-15T12:00:00Z" to="2012-04-15T12:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.7"/>
+        <windDirection id="dd" deg="60.3" name="NE"/>
+        <windSpeed id="ff" mps="3.5" beaufort="2" name="Svak vind"/>
+        <humidity value="64.4" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1009.4"/>
+        <cloudiness id="NN" percent="23.4"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="23.4"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-15T09:00:00Z" to="2012-04-15T12:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="LIGHTCLOUD" number="2"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-15T06:00:00Z" to="2012-04-15T12:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="PARTLYCLOUD" number="3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-15T15:00:00Z" to="2012-04-15T15:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.8"/>
+        <windDirection id="dd" deg="64.0" name="NE"/>
+        <windSpeed id="ff" mps="4.4" beaufort="3" name="Lett bris"/>
+        <humidity value="65.5" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1010.5"/>
+        <cloudiness id="NN" percent="3.1"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="3.1"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-15T12:00:00Z" to="2012-04-15T15:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="SUN" number="1"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-15T09:00:00Z" to="2012-04-15T15:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="LIGHTCLOUD" number="2"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-15T18:00:00Z" to="2012-04-15T18:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.7"/>
+        <windDirection id="dd" deg="80.4" name="E"/>
+        <windSpeed id="ff" mps="5.7" beaufort="4" name="Laber bris"/>
+        <humidity value="67.5" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1011.5"/>
+        <cloudiness id="NN" percent="100.0"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="7.8"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="100.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-15T15:00:00Z" to="2012-04-15T18:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="PARTLYCLOUD" number="3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-15T12:00:00Z" to="2012-04-15T18:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="PARTLYCLOUD" number="3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-15T21:00:00Z" to="2012-04-15T21:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.4"/>
+        <windDirection id="dd" deg="75.2" name="E"/>
+        <windSpeed id="ff" mps="5.2" beaufort="3" name="Lett bris"/>
+        <humidity value="68.0" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1010.1"/>
+        <cloudiness id="NN" percent="61.7"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="34.4"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="42.2"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-15T18:00:00Z" to="2012-04-15T21:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="PARTLYCLOUD" number="3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-15T15:00:00Z" to="2012-04-15T21:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="PARTLYCLOUD" number="3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-16T00:00:00Z" to="2012-04-16T00:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.2"/>
+        <windDirection id="dd" deg="63.0" name="NE"/>
+        <windSpeed id="ff" mps="5.0" beaufort="3" name="Lett bris"/>
+        <humidity value="69.4" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1009.2"/>
+        <cloudiness id="NN" percent="96.1"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="7.8"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="96.1"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-15T21:00:00Z" to="2012-04-16T00:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="PARTLYCLOUD" number="3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-15T18:00:00Z" to="2012-04-16T00:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="PARTLYCLOUD" number="3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-16T03:00:00Z" to="2012-04-16T03:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.2"/>
+        <windDirection id="dd" deg="63.2" name="NE"/>
+        <windSpeed id="ff" mps="4.6" beaufort="3" name="Lett bris"/>
+        <humidity value="69.2" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1011.2"/>
+        <cloudiness id="NN" percent="99.2"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="21.9"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="97.7"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-16T00:00:00Z" to="2012-04-16T03:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="CLOUD" number="4"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-15T21:00:00Z" to="2012-04-16T03:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="CLOUD" number="4"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-16T06:00:00Z" to="2012-04-16T06:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.5"/>
+        <windDirection id="dd" deg="68.6" name="E"/>
+        <windSpeed id="ff" mps="3.8" beaufort="3" name="Lett bris"/>
+        <humidity value="68.3" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1011.9"/>
+        <cloudiness id="NN" percent="98.4"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="17.2"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="96.9"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-16T03:00:00Z" to="2012-04-16T06:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="CLOUD" number="4"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-16T00:00:00Z" to="2012-04-16T06:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="CLOUD" number="4"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-16T09:00:00Z" to="2012-04-16T09:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.7"/>
+        <windDirection id="dd" deg="56.8" name="NE"/>
+        <windSpeed id="ff" mps="3.5" beaufort="2" name="Svak vind"/>
+        <humidity value="65.6" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1009.9"/>
+        <cloudiness id="NN" percent="99.2"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="31.2"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="97.7"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-16T06:00:00Z" to="2012-04-16T09:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="CLOUD" number="4"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-16T03:00:00Z" to="2012-04-16T09:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="CLOUD" number="4"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-16T12:00:00Z" to="2012-04-16T12:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.8"/>
+        <windDirection id="dd" deg="44.6" name="NE"/>
+        <windSpeed id="ff" mps="3.6" beaufort="2" name="Svak vind"/>
+        <humidity value="64.7" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1008.5"/>
+        <cloudiness id="NN" percent="20.3"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="14.1"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="7.8"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-16T09:00:00Z" to="2012-04-16T12:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="LIGHTCLOUD" number="2"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-16T06:00:00Z" to="2012-04-16T12:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="PARTLYCLOUD" number="3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-16T15:00:00Z" to="2012-04-16T15:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.7"/>
+        <windDirection id="dd" deg="48.3" name="NE"/>
+        <windSpeed id="ff" mps="4.2" beaufort="3" name="Lett bris"/>
+        <humidity value="66.9" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1009.3"/>
+        <cloudiness id="NN" percent="0.0"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="0.0"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-16T12:00:00Z" to="2012-04-16T15:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="SUN" number="1"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-16T09:00:00Z" to="2012-04-16T15:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="SUN" number="1"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-16T18:00:00Z" to="2012-04-16T18:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.7"/>
+        <windDirection id="dd" deg="63.2" name="NE"/>
+        <windSpeed id="ff" mps="4.6" beaufort="3" name="Lett bris"/>
+        <humidity value="66.8" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1010.9"/>
+        <cloudiness id="NN" percent="28.9"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="28.1"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.8"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-16T15:00:00Z" to="2012-04-16T18:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="LIGHTCLOUD" number="2"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-16T12:00:00Z" to="2012-04-16T18:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="LIGHTCLOUD" number="2"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-16T21:00:00Z" to="2012-04-16T21:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.6"/>
+        <windDirection id="dd" deg="68.5" name="E"/>
+        <windSpeed id="ff" mps="4.3" beaufort="3" name="Lett bris"/>
+        <humidity value="68.6" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1009.0"/>
+        <cloudiness id="NN" percent="24.2"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="22.7"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.8"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-16T18:00:00Z" to="2012-04-16T21:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="LIGHTCLOUD" number="2"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-16T15:00:00Z" to="2012-04-16T21:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="LIGHTCLOUD" number="2"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-17T00:00:00Z" to="2012-04-17T00:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.7"/>
+        <windDirection id="dd" deg="72.4" name="E"/>
+        <windSpeed id="ff" mps="4.4" beaufort="3" name="Lett bris"/>
+        <humidity value="67.5" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1008.7"/>
+        <cloudiness id="NN" percent="40.6"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="38.3"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="3.9"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-16T21:00:00Z" to="2012-04-17T00:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="PARTLYCLOUD" number="3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-16T18:00:00Z" to="2012-04-17T00:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="LIGHTCLOUD" number="2"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-17T03:00:00Z" to="2012-04-17T03:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.8"/>
+        <windDirection id="dd" deg="67.8" name="E"/>
+        <windSpeed id="ff" mps="3.6" beaufort="2" name="Svak vind"/>
+        <humidity value="67.3" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1010.5"/>
+        <cloudiness id="NN" percent="35.9"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="18.8"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="23.4"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-17T00:00:00Z" to="2012-04-17T03:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="LIGHTCLOUD" number="2"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-16T21:00:00Z" to="2012-04-17T03:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="PARTLYCLOUD" number="3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-17T06:00:00Z" to="2012-04-17T06:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.7"/>
+        <windDirection id="dd" deg="105.1" name="E"/>
+        <windSpeed id="ff" mps="4.3" beaufort="3" name="Lett bris"/>
+        <humidity value="74.0" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1011.5"/>
+        <cloudiness id="NN" percent="82.0"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="69.5"/>
+        <mediumClouds id="MEDIUM" percent="21.9"/>
+        <highClouds id="HIGH" percent="31.2"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-17T03:00:00Z" to="2012-04-17T06:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.1"/>
+        <symbol id="PARTLYCLOUD" number="3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-17T00:00:00Z" to="2012-04-17T06:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.1"/>
+        <symbol id="PARTLYCLOUD" number="3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-17T09:00:00Z" to="2012-04-17T09:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.3"/>
+        <windDirection id="dd" deg="111.5" name="E"/>
+        <windSpeed id="ff" mps="2.6" beaufort="2" name="Svak vind"/>
+        <humidity value="76.1" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1009.1"/>
+        <cloudiness id="NN" percent="75.0"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="62.5"/>
+        <mediumClouds id="MEDIUM" percent="7.0"/>
+        <highClouds id="HIGH" percent="25.8"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-17T06:00:00Z" to="2012-04-17T09:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.2"/>
+        <symbol id="PARTLYCLOUD" number="3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-17T03:00:00Z" to="2012-04-17T09:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.3"/>
+        <symbol id="PARTLYCLOUD" number="3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-17T12:00:00Z" to="2012-04-17T12:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="27.4"/>
+        <windDirection id="dd" deg="133.3" name="SE"/>
+        <windSpeed id="ff" mps="3.3" beaufort="2" name="Svak vind"/>
+        <humidity value="83.2" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1008.0"/>
+        <cloudiness id="NN" percent="54.7"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="51.6"/>
+        <mediumClouds id="MEDIUM" percent="18.8"/>
+        <highClouds id="HIGH" percent="4.7"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-17T09:00:00Z" to="2012-04-17T12:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.4"/>
+        <symbol id="LIGHTRAINSUN" number="5"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-17T06:00:00Z" to="2012-04-17T12:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.5"/>
+        <symbol id="LIGHTRAINSUN" number="5"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-17T18:00:00Z" to="2012-04-17T18:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.0"/>
+        <windDirection id="dd" deg="110.9" name="E"/>
+        <windSpeed id="ff" mps="3.9" beaufort="3" name="Lett bris"/>
+        <humidity value="81.1" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1010.3"/>
+        <cloudiness id="NN" percent="32.0"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="32.0"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-17T12:00:00Z" to="2012-04-17T18:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.5"/>
+        <symbol id="LIGHTRAINSUN" number="5"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-18T00:00:00Z" to="2012-04-18T00:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="27.1"/>
+        <windDirection id="dd" deg="150.9" name="SE"/>
+        <windSpeed id="ff" mps="3.6" beaufort="2" name="Svak vind"/>
+        <humidity value="81.0" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1007.7"/>
+        <cloudiness id="NN" percent="41.4"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="34.4"/>
+        <mediumClouds id="MEDIUM" percent="25.0"/>
+        <highClouds id="HIGH" percent="7.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-17T18:00:00Z" to="2012-04-18T00:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.8"/>
+        <symbol id="LIGHTRAIN" number="9"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-18T06:00:00Z" to="2012-04-18T06:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="25.1"/>
+        <windDirection id="dd" deg="121.0" name="SE"/>
+        <windSpeed id="ff" mps="0.4" beaufort="0" name="Stille"/>
+        <humidity value="89.0" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1011.6"/>
+        <cloudiness id="NN" percent="73.4"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="55.5"/>
+        <mediumClouds id="MEDIUM" percent="14.1"/>
+        <highClouds id="HIGH" percent="41.4"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-18T00:00:00Z" to="2012-04-18T06:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="4.6"/>
+        <symbol id="LIGHTRAIN" number="9"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-18T12:00:00Z" to="2012-04-18T12:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.0"/>
+        <windDirection id="dd" deg="211.3" name="SW"/>
+        <windSpeed id="ff" mps="0.6" beaufort="1" name="Flau vind"/>
+        <humidity value="74.5" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1007.0"/>
+        <cloudiness id="NN" percent="81.2"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="81.2"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-18T06:00:00Z" to="2012-04-18T12:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.6"/>
+        <symbol id="LIGHTRAINSUN" number="5"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-18T18:00:00Z" to="2012-04-18T18:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="27.8"/>
+        <windDirection id="dd" deg="128.4" name="SE"/>
+        <windSpeed id="ff" mps="2.7" beaufort="2" name="Svak vind"/>
+        <humidity value="78.7" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1010.0"/>
+        <cloudiness id="NN" percent="37.5"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="32.8"/>
+        <mediumClouds id="MEDIUM" percent="15.6"/>
+        <highClouds id="HIGH" percent="2.3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-18T12:00:00Z" to="2012-04-18T18:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.2"/>
+        <symbol id="LIGHTCLOUD" number="2"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-19T00:00:00Z" to="2012-04-19T00:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="27.0"/>
+        <windDirection id="dd" deg="204.7" name="SW"/>
+        <windSpeed id="ff" mps="1.8" beaufort="1" name="Flau vind"/>
+        <humidity value="83.0" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1008.1"/>
+        <cloudiness id="NN" percent="60.2"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="50.0"/>
+        <mediumClouds id="MEDIUM" percent="11.7"/>
+        <highClouds id="HIGH" percent="12.5"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-18T18:00:00Z" to="2012-04-19T00:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.4"/>
+        <symbol id="LIGHTRAINSUN" number="5"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-19T06:00:00Z" to="2012-04-19T06:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="27.3"/>
+        <windDirection id="dd" deg="163.7" name="S"/>
+        <windSpeed id="ff" mps="2.2" beaufort="2" name="Svak vind"/>
+        <humidity value="78.0" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1011.0"/>
+        <cloudiness id="NN" percent="46.9"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="46.9"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-19T00:00:00Z" to="2012-04-19T06:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="1.2"/>
+        <symbol id="LIGHTRAIN" number="9"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-19T12:00:00Z" to="2012-04-19T12:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.5"/>
+        <windDirection id="dd" deg="172.3" name="S"/>
+        <windSpeed id="ff" mps="2.7" beaufort="2" name="Svak vind"/>
+        <humidity value="71.9" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1007.2"/>
+        <cloudiness id="NN" percent="32.8"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="32.8"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-19T06:00:00Z" to="2012-04-19T12:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="LIGHTCLOUD" number="2"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-19T18:00:00Z" to="2012-04-19T18:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.6"/>
+        <windDirection id="dd" deg="188.4" name="S"/>
+        <windSpeed id="ff" mps="2.4" beaufort="2" name="Svak vind"/>
+        <humidity value="76.4" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1010.4"/>
+        <cloudiness id="NN" percent="42.2"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="42.2"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-19T12:00:00Z" to="2012-04-19T18:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="PARTLYCLOUD" number="3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-20T00:00:00Z" to="2012-04-20T00:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.1"/>
+        <windDirection id="dd" deg="165.4" name="S"/>
+        <windSpeed id="ff" mps="1.6" beaufort="1" name="Flau vind"/>
+        <humidity value="77.0" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1009.2"/>
+        <cloudiness id="NN" percent="16.4"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="16.4"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-19T18:00:00Z" to="2012-04-20T00:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="LIGHTCLOUD" number="2"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-20T06:00:00Z" to="2012-04-20T06:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.6"/>
+        <windDirection id="dd" deg="151.5" name="SE"/>
+        <windSpeed id="ff" mps="2.7" beaufort="2" name="Svak vind"/>
+        <humidity value="77.1" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1012.2"/>
+        <cloudiness id="NN" percent="0.0"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="0.0"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-20T00:00:00Z" to="2012-04-20T06:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="SUN" number="1"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-20T12:00:00Z" to="2012-04-20T12:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.9"/>
+        <windDirection id="dd" deg="201.1" name="S"/>
+        <windSpeed id="ff" mps="2.4" beaufort="2" name="Svak vind"/>
+        <humidity value="76.8" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1009.2"/>
+        <cloudiness id="NN" percent="0.0"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="0.0"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-20T06:00:00Z" to="2012-04-20T12:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="SUN" number="1"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-20T18:00:00Z" to="2012-04-20T18:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.6"/>
+        <windDirection id="dd" deg="252.1" name="W"/>
+        <windSpeed id="ff" mps="1.2" beaufort="1" name="Flau vind"/>
+        <humidity value="79.0" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1012.3"/>
+        <cloudiness id="NN" percent="1.6"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="1.6"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-20T12:00:00Z" to="2012-04-20T18:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="SUN" number="1"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-21T00:00:00Z" to="2012-04-21T00:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.0"/>
+        <windDirection id="dd" deg="355.5" name="N"/>
+        <windSpeed id="ff" mps="0.4" beaufort="0" name="Stille"/>
+        <humidity value="80.1" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1010.7"/>
+        <cloudiness id="NN" percent="14.1"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="14.1"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-20T18:00:00Z" to="2012-04-21T00:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="LIGHTCLOUD" number="2"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-21T06:00:00Z" to="2012-04-21T06:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.4"/>
+        <windDirection id="dd" deg="93.9" name="E"/>
+        <windSpeed id="ff" mps="1.1" beaufort="1" name="Flau vind"/>
+        <humidity value="80.3" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1013.5"/>
+        <cloudiness id="NN" percent="0.8"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="0.8"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-21T00:00:00Z" to="2012-04-21T06:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="SUN" number="1"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-21T12:00:00Z" to="2012-04-21T12:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="29.0"/>
+        <windDirection id="dd" deg="12.9" name="N"/>
+        <windSpeed id="ff" mps="1.5" beaufort="1" name="Flau vind"/>
+        <humidity value="76.4" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1010.1"/>
+        <cloudiness id="NN" percent="0.0"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="0.0"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-21T06:00:00Z" to="2012-04-21T12:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="SUN" number="1"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-21T18:00:00Z" to="2012-04-21T18:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.8"/>
+        <windDirection id="dd" deg="70.8" name="E"/>
+        <windSpeed id="ff" mps="1.8" beaufort="1" name="Flau vind"/>
+        <humidity value="75.6" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1012.3"/>
+        <cloudiness id="NN" percent="4.7"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="4.7"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-21T12:00:00Z" to="2012-04-21T18:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="SUN" number="1"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-22T00:00:00Z" to="2012-04-22T00:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.1"/>
+        <windDirection id="dd" deg="20.9" name="N"/>
+        <windSpeed id="ff" mps="2.7" beaufort="2" name="Svak vind"/>
+        <humidity value="78.8" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1010.4"/>
+        <cloudiness id="NN" percent="60.2"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="60.2"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-21T18:00:00Z" to="2012-04-22T00:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="PARTLYCLOUD" number="3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-22T06:00:00Z" to="2012-04-22T06:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.1"/>
+        <windDirection id="dd" deg="39.0" name="NE"/>
+        <windSpeed id="ff" mps="3.4" beaufort="2" name="Svak vind"/>
+        <humidity value="77.2" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1012.9"/>
+        <cloudiness id="NN" percent="4.7"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="4.7"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-22T00:00:00Z" to="2012-04-22T06:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="SUN" number="1"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-22T12:00:00Z" to="2012-04-22T12:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.5"/>
+        <windDirection id="dd" deg="9.0" name="N"/>
+        <windSpeed id="ff" mps="2.8" beaufort="2" name="Svak vind"/>
+        <humidity value="74.6" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1009.1"/>
+        <cloudiness id="NN" percent="0.0"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="0.0"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-22T06:00:00Z" to="2012-04-22T12:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="SUN" number="1"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-22T18:00:00Z" to="2012-04-22T18:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.2"/>
+        <windDirection id="dd" deg="39.9" name="NE"/>
+        <windSpeed id="ff" mps="2.5" beaufort="2" name="Svak vind"/>
+        <humidity value="76.5" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1011.3"/>
+        <cloudiness id="NN" percent="0.8"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="0.8"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-22T12:00:00Z" to="2012-04-22T18:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="SUN" number="1"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-23T00:00:00Z" to="2012-04-23T00:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="27.5"/>
+        <windDirection id="dd" deg="14.6" name="N"/>
+        <windSpeed id="ff" mps="2.4" beaufort="2" name="Svak vind"/>
+        <humidity value="79.5" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1009.2"/>
+        <cloudiness id="NN" percent="76.6"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="76.6"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-22T18:00:00Z" to="2012-04-23T00:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="PARTLYCLOUD" number="3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-23T06:00:00Z" to="2012-04-23T06:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="27.6"/>
+        <windDirection id="dd" deg="34.8" name="NE"/>
+        <windSpeed id="ff" mps="1.5" beaufort="1" name="Flau vind"/>
+        <humidity value="78.0" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1011.8"/>
+        <cloudiness id="NN" percent="54.7"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="54.7"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-23T00:00:00Z" to="2012-04-23T06:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="PARTLYCLOUD" number="3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-23T12:00:00Z" to="2012-04-23T12:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.4"/>
+        <windDirection id="dd" deg="71.5" name="E"/>
+        <windSpeed id="ff" mps="1.1" beaufort="1" name="Flau vind"/>
+        <humidity value="73.4" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1008.3"/>
+        <cloudiness id="NN" percent="1.6"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="1.6"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-23T06:00:00Z" to="2012-04-23T12:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="SUN" number="1"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-23T18:00:00Z" to="2012-04-23T18:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.2"/>
+        <windDirection id="dd" deg="49.6" name="NE"/>
+        <windSpeed id="ff" mps="0.7" beaufort="1" name="Flau vind"/>
+        <humidity value="77.0" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1010.6"/>
+        <cloudiness id="NN" percent="18.8"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="18.8"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-23T12:00:00Z" to="2012-04-23T18:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="LIGHTCLOUD" number="2"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-24T00:00:00Z" to="2012-04-24T00:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="27.3"/>
+        <windDirection id="dd" deg="299.8" name="NW"/>
+        <windSpeed id="ff" mps="1.7" beaufort="1" name="Flau vind"/>
+        <humidity value="81.1" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1009.2"/>
+        <cloudiness id="NN" percent="46.1"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="46.1"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-23T18:00:00Z" to="2012-04-24T00:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.1"/>
+        <symbol id="PARTLYCLOUD" number="3"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-24T06:00:00Z" to="2012-04-24T06:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="27.5"/>
+        <windDirection id="dd" deg="19.8" name="N"/>
+        <windSpeed id="ff" mps="2.2" beaufort="2" name="Svak vind"/>
+        <humidity value="81.1" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1012.2"/>
+        <cloudiness id="NN" percent="51.6"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="51.6"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-24T00:00:00Z" to="2012-04-24T06:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.9"/>
+        <symbol id="LIGHTRAIN" number="9"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-24T12:00:00Z" to="2012-04-24T12:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <temperature id="TTT" unit="celcius" value="28.3"/>
+        <windDirection id="dd" deg="40.9" name="NE"/>
+        <windSpeed id="ff" mps="1.1" beaufort="1" name="Flau vind"/>
+        <humidity value="75.1" unit="percent"/>
+        <pressure id="pr" unit="hPa" value="1008.8"/>
+        <cloudiness id="NN" percent="12.5"/>
+        <fog id="FOG" percent="0.0"/>
+        <lowClouds id="LOW" percent="12.5"/>
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        <highClouds id="HIGH" percent="0.0"/>
+      </location>
+    </time>
+    <time datatype="forecast" from="2012-04-24T06:00:00Z" to="2012-04-24T12:00:00Z">
+      <location altitude="0" latitude="10.7461" longitude="59.9127">
+        <precipitation unit="mm" value="0.0"/>
+        <symbol id="SUN" number="1"/>
+      </location>
+    </time>
+  </product>
+</weatherdata>
+

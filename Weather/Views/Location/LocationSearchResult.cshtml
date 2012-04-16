@@ -1,0 +1,28 @@
+﻿@model IList<Weather.Model.Domain.Place>
+
+@{
+    if (Model.Count > 0 )
+    {
+        <table cellspacing="5">
+            <tr>
+                <td><b>Sted</b></td>
+                <td><b>Type</b></td>
+                <td><b>Fylke</b></td>    
+                <td><b>Kommune</b></td>             
+            </tr>
+            @foreach (Weather.Model.Domain.Place place in Model)
+            {
+                <tr>
+                    <td>@place.PlaceName</td>
+                    <td>@place.PlaceType</td>
+                    <td>@place.State</td>
+                    <td>@place.County</td>
+                </tr>
+            }
+        </table>
+    } 
+    else 
+    {
+        <p>Ingen steder funnet</p>
+    }
+}

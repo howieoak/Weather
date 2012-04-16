@@ -1,0 +1,31 @@
+﻿<h3>Varsel</h3>
+
+<h4> Enter the name of the book: </h4>
+<input id="book" />
+
+<h4> Click to select a date: </h4>
+<input id="date" />
+
+<p></p>
+
+@using (Ajax.BeginForm("LocationSearch", "Location", new AjaxOptions { UpdateTargetId = "results" }))
+{
+    @Html.TextBox("query", null, new { size = 40 })
+    <input type="submit" />
+}
+
+<div id="results" />
+
+
+<script type="text/javascript">
+    // array of items to be proposed in the list of suggestions
+    var books = ["Web development with J2EE", "Practical CSS & JavaScript", "Practical Ruby on Rails", "Introduction to HTML & CSS", "jQuery UI"];
+    $("input#book").autocomplete({
+        source: books
+    });
+    $("input#date").datepicker();
+</script>
+
+
+
+

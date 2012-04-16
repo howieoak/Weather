@@ -1,0 +1,13 @@
+﻿@model IEnumerable<Weather.Model.Domain.Place>
+
+@{
+    ViewBag.Title = "Churches";
+}
+
+<h2>Churches</h2>
+
+<ul>
+    @foreach(var church in Model) {
+        <li>@church.PlaceName som ligger i @church.County, @church.State</li>
+    }
+</ul>

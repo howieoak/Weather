@@ -1,0 +1,38 @@
+﻿@model Weather.Models.Product
+
+@{
+    ViewBag.Title = "Product";
+}
+
+<h2>Product</h2>
+<h3>Name is: @Model.Name</h3>
+
+@if (Model.Category == "Watersports")
+{ 
+    <p>@Model.Category <b>Splish!</b></p>
+    @:Or <p />
+    @:Category: @Model.Category <b>Splash!</b>
+    <text>
+        <p />
+        This also works!
+        <pre>
+            Row, row, row your boat,
+            Gently down the stream...
+        </pre>
+    </text>
+}
+@{
+    if (Model.ProductID == 1)
+    {
+        @: Description: @Model.Description
+    }
+    if (Model.Price > 10)
+    {
+        <h5>Pricely!</h5>
+    }
+}
+
+The time is: @DateTime.UtcNow.ToString()
+<p />
+Message: @ViewBag.Beautiful
+

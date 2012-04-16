@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FDA1BE44-3882-4B7F-BAC4-0322BBAAD15B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Weather.Infrastructure</RootNamespace>
+    <AssemblyName>Weather.Infrastructure</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Logging">
+      <HintPath>..\SharedBinaries\Libs\Spring\Spring 1.3.2\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Aop, Version=1.3.2.40943, Culture=neutral, PublicKeyToken=65e474d141e25e07, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SharedBinaries\Libs\Spring\Spring 1.3.2\Spring.Aop.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Core">
+      <HintPath>..\SharedBinaries\Libs\Spring\Spring 1.3.2\Spring.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Data">
+      <HintPath>..\SharedBinaries\Libs\Spring\Spring 1.3.2\Spring.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Caching\CacheItem.cs" />
+    <Compile Include="Caching\ExpiringCache.cs" />
+    <Compile Include="Dao\Entities\PlaceNorway.cs" />
+    <Compile Include="Dao\IPlacesNorwayDao.cs" />
+    <Compile Include="Dao\PlacesNorwayDao.cs" />
+    <Compile Include="Dao\PlacesNorwayRowMapper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\Location\ILocationSystem.cs" />
+    <Compile Include="Services\Location\LocationService.cs" />
+    <Compile Include="Services\Location\LocationSystem.cs" />
+    <Compile Include="Services\Location\OnlineLocationSystem.cs" />
+    <Compile Include="Services\Weather\Entities\ForecastDto.cs" />
+    <Compile Include="Services\Weather\IWeatherSystem.cs" />
+    <Compile Include="Services\Weather\OnlineWeatherSystem.cs" />
+    <Compile Include="Services\Weather\SimpleWeatherSystem.cs" />
+    <Compile Include="Services\Weather\WeatherService.cs" />
+    <Compile Include="Services\Weather\WeatherSystem.cs" />
+    <Compile Include="Spring\SpringObjectLocator.cs" />
+    <Compile Include="Xml\YrXmlParser.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Weather.Model\Weather.Model.csproj">
+      <Project>{36CEB515-0622-4992-9447-123D5A7550E8}</Project>
+      <Name>Weather.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Spring\spring_container.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\Location\Entities\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

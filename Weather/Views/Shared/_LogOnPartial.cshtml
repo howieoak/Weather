@@ -1,0 +1,13 @@
+﻿@*@if(Request.IsAuthenticated) {
+    <text>Welcome <b>@Context.User.Identity.Name</b>!
+    [ @Html.ActionLink("Log Off", "LogOff", "Account") ]</text>
+}
+else {
+    @:[ @Html.ActionLink("Log On", "LogOn", "Account") ]
+}*@
+
+@*Din location (lat, lon): <span id="startLat">???</span>&deg;, <span id="startLon">???</span>&deg; <br />*@
+@*<button onclick="getLocation()">Hent din lokasjon</button>*@
+<div id="message">
+    
+</div>

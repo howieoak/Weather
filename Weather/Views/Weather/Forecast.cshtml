@@ -1,0 +1,29 @@
+﻿@model Weather.Model.Domain.Forecast
+
+@{
+    ViewBag.Title = "Varsel";
+}
+
+<div class="forecast">
+    <h4>@Model.LocationName</h4>
+    <span>Tidsperiode: @Model.TimeFrom.ToShortTimeString() - @Model.TimeTo.ToShortTimeString()</span>
+    <p>
+        <span id="temperature">
+            @Model.Temperature&deg;
+        </span>
+        <span>
+            @Html.Image(Model.ImageUrl, Model.SymbolName)
+        </span>
+        <span id="presipitation">
+            @Model.PresipitationMin - @Model.PresipitationMax
+        </span>
+        <span class="right">
+            @Html.ActionLink("Tilbake til Weather", "Index")
+        </span>        
+    </p>
+</div>
+
+@section Script
+{
+    <script src="@Url.Content("~/Scripts/weather_forecast.js")" type="text/javascript"></script>
+}

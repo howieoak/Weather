@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="764f6c1e-992d-4c75-bf42-91d311198de4" name="HP-Bruker-1@ANTIVAHPPC1 2012-04-11 20:59:04" runUser="AntivaHPPC1\HP-Bruker-1" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="63e443fe-ca2a-4446-97f8-47736039bcb1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="HP-Bruker-1_ANTIVAHPPC1 2012-04-11 20_59_04">
+      <DeploymentItem filename="C:\Projects\Weather\SharedBinaries\Libs\Spring\Spring 1.3.2\Spring.Data.dll" />
+      <DeploymentItem filename="C:\Projects\Weather\Weather.Model\bin\Debug\Weather.Model.dll" />
+      <DeploymentItem filename="C:\Projects\Weather\SharedBinaries\Libs\Spring\Spring 1.3.2\Spring.Core.dll" />
+      <DeploymentItem filename="C:\Projects\Weather\Weather.Infrastructure\bin\Debug\Weather.Infrastructure.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-11T20:59:04.6628972+02:00" queuing="2012-04-11T20:59:07.5630631+02:00" start="2012-04-11T20:59:07.7090715+02:00" finish="2012-04-11T20:59:36.6617275+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="QueryChurchesTest" storage="c:\projects\weather\weather.tests\bin\debug\weather.tests.dll" id="b538d936-373e-131c-6c76-5fcc84c3e902">
+      <Execution id="61cd16f1-addc-49cc-9b74-c7a83bd031b6" />
+      <TestMethod codeBase="C:/Projects/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.Infrastructure.Dao.PlacesNorwayDaoTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="QueryChurchesTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b538d936-373e-131c-6c76-5fcc84c3e902" executionId="61cd16f1-addc-49cc-9b74-c7a83bd031b6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="61cd16f1-addc-49cc-9b74-c7a83bd031b6" testId="b538d936-373e-131c-6c76-5fcc84c3e902" testName="QueryChurchesTest" computerName="ANTIVAHPPC1" duration="00:00:27.1366667" startTime="2012-04-11T20:59:07.8410790+02:00" endTime="2012-04-11T20:59:36.5287199+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61cd16f1-addc-49cc-9b74-c7a83bd031b6">
+      <Output>
+        <DebugTrace>Unable to read configuration section common/logging.  Using no-op implemenation.
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

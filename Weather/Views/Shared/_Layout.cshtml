@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Content/css")" rel="stylesheet" type="text/css" />
+    <link href="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Content/themes/ui-lightness/css")" rel="stylesheet" type="text/css" />
+    @RenderSection("Style", false)
+    <script src="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/js")"></script>
+</head>
+<body>
+    <div class="page">
+
+        <div id="header">
+            <div id="title">
+                <h1>Paraply</h1>
+                @*<img src="@Url.Content("~/Content/images/OdeToFood.png")" alt="OdeToFood" />*@
+            </div>
+
+            <div id="logindisplay">
+                @Html.Partial("_LogOnPartial")
+            </div>
+                
+            <div id="menucontainer">                
+                <ul id="menu">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Product", "Index", "Product")</li>
+                    <li>@Html.ActionLink("Weather", "Index", "Weather")</li>
+                    <li>@Html.ActionLink("Kirker", "Churches", "Location")</li>
+                    <li>@Html.ActionLink("StedsVarsel", "LocationForecast", "Weather")</li>
+                    <li>@Html.ActionLink("Places", "Places", "Location")</li>
+                </ul>                
+            </div>
+        </div>
+
+        <div id="main">
+            @RenderBody()
+            <div id="footer">   
+            @RenderSection("Footer", false)          
+            </div>
+        </div>
+    </div>
+    @RenderSection("Script", false)
+</body>
+</html>

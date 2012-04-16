@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d3d2c7a6-9254-422b-a9b4-b36629f377ea" name="HP-Bruker-1@ANTIVAHPPC1 2012-04-16 21:40:42" runUser="AntivaHPPC1\HP-Bruker-1" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="63e443fe-ca2a-4446-97f8-47736039bcb1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="HP-Bruker-1_ANTIVAHPPC1 2012-04-16 21_40_42">
+      <DeploymentItem filename="C:\GitRepositories\Weather\SharedBinaries\Libs\Spring\Spring 1.3.2\Spring.Core.dll" />
+      <DeploymentItem filename="C:\GitRepositories\Weather\Weather.Application\bin\Debug\Weather.Application.dll" />
+      <DeploymentItem filename="C:\GitRepositories\Weather\SharedBinaries\Libs\Spring\Spring 1.3.2\Spring.Data.dll" />
+      <DeploymentItem filename="C:\GitRepositories\Weather\Weather.Infrastructure\bin\Debug\Weather.Infrastructure.dll" />
+      <DeploymentItem filename="C:\GitRepositories\Weather\Weather.Model\bin\Debug\Weather.Model.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-16T21:40:42.6153123+02:00" queuing="2012-04-16T21:40:42.6793160+02:00" start="2012-04-16T21:40:42.7013172+02:00" finish="2012-04-16T21:40:43.0793389+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ToStringPeriodTest2" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="946dc9c9-46a9-bb73-4dcf-f62ee5db18ed">
+      <Execution id="e43cf73b-5295-4be7-8bf2-395bb9b55023" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.Model.Common.ExtensionMethodsTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ToStringPeriodTest2" />
+    </UnitTest>
+    <UnitTest name="ToStringPeriodTest1" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="0bf737f1-ddf2-d8bd-5ce8-ad32bafb944d">
+      <Execution id="06281e05-8eda-4b9c-aff1-15d54d60be7c" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.Model.Common.ExtensionMethodsTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ToStringPeriodTest1" />
+    </UnitTest>
+    <UnitTest name="ToStringPeriodTest3" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="8c0d46d1-426d-1fdb-d4ee-a66179e83716">
+      <Execution id="69cf80b8-8f82-4d2d-9009-c3971e06629a" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.Model.Common.ExtensionMethodsTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ToStringPeriodTest3" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0bf737f1-ddf2-d8bd-5ce8-ad32bafb944d" executionId="06281e05-8eda-4b9c-aff1-15d54d60be7c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="946dc9c9-46a9-bb73-4dcf-f62ee5db18ed" executionId="e43cf73b-5295-4be7-8bf2-395bb9b55023" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8c0d46d1-426d-1fdb-d4ee-a66179e83716" executionId="69cf80b8-8f82-4d2d-9009-c3971e06629a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="06281e05-8eda-4b9c-aff1-15d54d60be7c" testId="0bf737f1-ddf2-d8bd-5ce8-ad32bafb944d" testName="ToStringPeriodTest1" computerName="ANTIVAHPPC1" duration="00:00:00.0155073" startTime="2012-04-16T21:40:42.7313189+02:00" endTime="2012-04-16T21:40:43.0443369+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06281e05-8eda-4b9c-aff1-15d54d60be7c">
+    </UnitTestResult>
+    <UnitTestResult executionId="e43cf73b-5295-4be7-8bf2-395bb9b55023" testId="946dc9c9-46a9-bb73-4dcf-f62ee5db18ed" testName="ToStringPeriodTest2" computerName="ANTIVAHPPC1" duration="00:00:00.0003020" startTime="2012-04-16T21:40:43.0483371+02:00" endTime="2012-04-16T21:40:43.0523373+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e43cf73b-5295-4be7-8bf2-395bb9b55023">
+    </UnitTestResult>
+    <UnitTestResult executionId="69cf80b8-8f82-4d2d-9009-c3971e06629a" testId="8c0d46d1-426d-1fdb-d4ee-a66179e83716" testName="ToStringPeriodTest3" computerName="ANTIVAHPPC1" duration="00:00:00.0002096" startTime="2012-04-16T21:40:43.0563375+02:00" endTime="2012-04-16T21:40:43.0593377+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="69cf80b8-8f82-4d2d-9009-c3971e06629a">
+    </UnitTestResult>
+  </Results>
+</TestRun>

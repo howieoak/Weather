@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net"
+         xmlns:db="http://www.springframework.net/database"
+         xmlns:aop="http://www.springframework.net/aop">
+
+  <!-- Property placeholder configurer for database settings -->
+  <object name="appConfigPropertyHolder" type="Spring.Objects.Factory.Config.PropertyPlaceholderConfigurer, Spring.Core">
+    <property name="configSections" value="databaseSettings"/>
+  </object>
+
+  <db:provider id="dbProvider"
+                provider="SqlServer-2.0"
+                connectionString="Data Source=${db.datasource};Initial Catalog=${db.database};Integrated Security=True"/>
+  
+  <object id="adoTemplate" type="Spring.Data.Generic.AdoTemplate, Spring.Data">
+    <property name="DbProvider" ref="dbProvider"/>
+    <property name="DataReaderWrapperType" value="Spring.Data.Support.NullMappingDataReader, Spring.Data"/>
+    <property name="CommandTimeout" value="120" />
+  </object>
+
+  <object id="PlacesNorwayDao" type="Weather.Infrastructure.Dao.PlacesNorwayDao, Weather.Infrastructure">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="WeatherSystemObject" type="Weather.Infrastructure.Services.Weather.WeatherSystem, Weather.Infrastructure" >
+    <property name="CurrentWeatherSystem" ref="OnlineWeatherSystem"/>
+  </object>
+  <object id="OnlineWeatherSystem"
+          type="Weather.Infrastructure.Services.Weather.OnlineWeatherSystem, Weather.Infrastructure" >
+  </object>
+  <object id="SimpleWeatherSystem"
+          type="Weather.Infrastructure.Services.Weather.SimpleWeatherSystem, Weather.Infrastructure" >
+  </object>
+
+  <object id="LocationSystemObject" type="Weather.Infrastructure.Services.Location.LocationSystem, Weather.Infrastructure" >
+    <property name="CurrentLocationSystem" ref="OnlineLocationSystem"/>
+  </object>
+  
+  <object id="OnlineLocationSystem"
+          type="Weather.Infrastructure.Services.Location.OnlineLocationSystem, Weather.Infrastructure" >
+  </object>
+
+
+  <!-- AOP Section -->
+  <object id="AOPWithCacheLoggException" type="Spring.Aop.Framework.AutoProxy.ObjectNameAutoProxyCreator, Spring.Aop">
+    <property name="ObjectNames">
+      <list>
+        <value>OnlineLocationSystem</value>
+      </list>
+    </property>
+    <property name="InterceptorNames">
+      <list>
+        <value>CacheAspect</value>
+      </list>
+    </property>
+  </object>
+
+  <!-- AOP Advices -->
+  <!-- Cache Aspect. This aspects enable caching like ExpiringCache below -->
+  <object id="CacheAspect" type="Spring.Aspects.Cache.CacheAspect, Spring.Aop" />
+  <!-- AOP Advice Cache with expiringtimer. Note this advice is a attribute advice. see HenvendelseService for details -->
+  <object id="ExpiringCache" type="Weather.Infrastructure.Caching.ExpiringCache, Weather.Infrastructure" />
+
+</objects>

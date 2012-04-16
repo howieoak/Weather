@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Forecast";
+}
+
+<h2>Forecast</h2>
+
+
+@using (Html.BeginForm())
+{
+    <p>Latitude: @Html.TextBox("Lat") </p>
+    <p>Longitude: @Html.TextBox("Lon") </p>
+    
+    <input type="submit" value="Forecast" />
+}
+
