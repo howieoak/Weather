@@ -59,6 +59,7 @@
     <Compile Include="Infrastructure\Services\Location\OnlineLocationSystemTest.cs" />
     <Compile Include="Infrastructure\Services\Weather\OnlineWeatherSystemTest.cs" />
     <Compile Include="Model\Common\ExtensionMethodsTest.cs" />
+    <Compile Include="Model\Common\HelpersTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -8,12 +8,12 @@ using Weather.Model.Common;
 namespace Weather.Tests.Model.Common
 {
     /// <summary>
-    /// Summary description for ExtensionMethodsTest
+    /// Summary description for HelpersTest
     /// </summary>
     [TestClass]
-    public class ExtensionMethodsTest
+    public class HelpersTest
     {
-        public ExtensionMethodsTest()
+        public HelpersTest()
         {
             //
             // TODO: Add constructor logic here
@@ -61,17 +61,12 @@ namespace Weather.Tests.Model.Common
         #endregion
 
         [TestMethod]
-        public void ToStringPeriodTest()
+        public void ParseSymbolVarTest()
         {
-            double test1 = 1.23;
-            Assert.AreEqual("1,23", test1.ToString());
-            Assert.AreEqual("1.23", test1.ToStringPeriod());
+            string var = "mf/03n.83";
+            string actual = Helpers.ParseSymbolVar(var);
+            Assert.AreEqual("03n", actual);
 
-            double test2 = 1234.5;
-            Assert.AreEqual("1234.5", test2.ToStringPeriod());
-
-            double test3 = 1.12345;
-            Assert.AreEqual("1.12345", test3.ToStringPeriod());
         }
     }
 }

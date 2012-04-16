@@ -36,11 +36,10 @@ namespace Weather.Infrastructure.Xml
             
             //XElement sun = (from s in astrodata.Elements("time").Elements("location").Elements("sun")
             //                select s).FirstOrDefault();
-            XElement sun = astrodata
-                            .Elements("time")
-                            .Elements("location")
-                            .Elements("sun")
-                            .FirstOrDefault();
+            XElement sun = astrodata.Elements("time")
+                                    .Elements("location")
+                                    .Elements("sun")
+                                    .FirstOrDefault();
 
 
             return (sun.Attribute("rise") != null) ? sun.Attribute("rise").Value : "";
@@ -55,24 +54,20 @@ namespace Weather.Infrastructure.Xml
         {
             XElement weatherdata = XElement.Load(place.ForecastUri);
 
-            XElement time = (from t in weatherdata
-                                 .Elements("forecast")
-                                 .Elements("tabular")
-                                 .Elements("time")
-                            //     .Where (p => p.Attribute("period").Value == "1")
-                            select t).FirstOrDefault();
+            XElement time = weatherdata.Elements("forecast")
+                                       .Elements("tabular")
+                                       .Elements("time")
+                                       //.Where (p => p.Attribute("period").Value == "1")
+                                       .FirstOrDefault();
 
-            XElement symbol = (from s in time
-                                 .Elements("symbol")
-                               select s).FirstOrDefault();
+            XElement symbol = time.Elements("symbol")
+                                  .FirstOrDefault();
 
-            XElement precipitation = (from p in time
-                                        .Elements("precipitation")
-                                      select p).FirstOrDefault();
+            XElement precipitation = time.Elements("precipitation")
+                                         .FirstOrDefault();
 
-            XElement temperature = (from t in time
-                                        .Elements("temperature")
-                                    select t).FirstOrDefault();
+            XElement temperature = time.Elements("temperature")
+                                       .FirstOrDefault();
 
             
             ForecastDto forecastDto = new ForecastDto

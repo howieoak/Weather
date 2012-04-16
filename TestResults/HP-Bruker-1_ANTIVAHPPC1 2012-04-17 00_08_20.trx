@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d09b881a-1285-4bc1-bb4b-684c7b02281c" name="HP-Bruker-1@ANTIVAHPPC1 2012-04-17 00:08:20" runUser="AntivaHPPC1\HP-Bruker-1" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="63e443fe-ca2a-4446-97f8-47736039bcb1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="HP-Bruker-1_ANTIVAHPPC1 2012-04-17 00_08_20">
+      <DeploymentItem filename="C:\GitRepositories\Weather\SharedBinaries\Libs\Spring\Spring 1.3.2\Spring.Core.dll" />
+      <DeploymentItem filename="C:\GitRepositories\Weather\Weather.Application\bin\Debug\Weather.Application.dll" />
+      <DeploymentItem filename="C:\GitRepositories\Weather\SharedBinaries\Libs\Spring\Spring 1.3.2\Spring.Data.dll" />
+      <DeploymentItem filename="C:\GitRepositories\Weather\Weather.Infrastructure\bin\Debug\Weather.Infrastructure.dll" />
+      <DeploymentItem filename="C:\GitRepositories\Weather\Weather.Model\bin\Debug\Weather.Model.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-17T00:08:20.0959312+02:00" queuing="2012-04-17T00:08:20.8129722+02:00" start="2012-04-17T00:08:20.9019773+02:00" finish="2012-04-17T00:08:37.7249395+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="13" executed="13" passed="8" error="0" failed="5" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LocationForecastTest" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="92992327-5cf3-d9e7-1e39-728333111100">
+      <Execution id="70a9e646-fa63-4781-8966-a66931f07c72" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.Infrastructure.Services.Weather.OnlineWeatherSystemTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LocationForecastTest" />
+    </UnitTest>
+    <UnitTest name="ImageUrlTest" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="bf06b9b2-778f-177a-8646-702b1e802305">
+      <Execution id="58354e02-6c97-4992-a569-29dcdd280a2c" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.FrameworkTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ImageUrlTest" />
+    </UnitTest>
+    <UnitTest name="ToStringPeriodTest3" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="8c0d46d1-426d-1fdb-d4ee-a66179e83716">
+      <Execution id="f400d1f5-2b64-4fb5-b53a-94a0953a24e8" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.Model.Common.ExtensionMethodsTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ToStringPeriodTest3" />
+    </UnitTest>
+    <UnitTest name="GetAllChurchesInNorway" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="537bb603-3242-6bf0-1b72-4092b725c941">
+      <Execution id="c91d2b5c-0068-4ebc-b276-459055620df9" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.Infrastructure.Services.Location.OnlineLocationSystemTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllChurchesInNorway" />
+    </UnitTest>
+    <UnitTest name="ForecastDataTest" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="bbb77ad7-d984-0460-ed5a-4aa30565831c">
+      <Execution id="fd19a4e8-8a88-4d92-81e4-f857f4e5de51" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.Infrastructure.Services.Weather.OnlineWeatherSystemTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ForecastDataTest" />
+    </UnitTest>
+    <UnitTest name="DateTimeParseTest" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="9ac2e02c-8615-bb57-179e-40b1b18a2d39">
+      <Execution id="724e2777-41fc-4c34-9b1c-e8cfce860589" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.FrameworkTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DateTimeParseTest" />
+    </UnitTest>
+    <UnitTest name="ToStringPeriodTest2" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="946dc9c9-46a9-bb73-4dcf-f62ee5db18ed">
+      <Execution id="3fa458a0-832f-4147-8d79-509cae4b866e" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.Model.Common.ExtensionMethodsTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ToStringPeriodTest2" />
+    </UnitTest>
+    <UnitTest name="QueryAllPlacesTest" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="0864fe4d-689f-5974-0e9d-6e9fcda025c4">
+      <Execution id="7febeafb-bf96-48a6-acf6-9042a4750d7b" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.Infrastructure.Dao.PlacesNorwayDaoTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="QueryAllPlacesTest" />
+    </UnitTest>
+    <UnitTest name="GetPlaceTest" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="bd41479b-3a45-dee0-8177-5403b84603ba">
+      <Execution id="0ad91896-2ad8-408e-b6a5-f5160c780d4b" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.Infrastructure.Dao.PlacesNorwayDaoTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetPlaceTest" />
+    </UnitTest>
+    <UnitTest name="QueryAllChurchesTest" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="11783d2b-995f-4417-e252-e2f5d63e0b69">
+      <Execution id="2414b2c7-3793-45e3-b8c4-348f46b82cc9" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.Infrastructure.Dao.PlacesNorwayDaoTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="QueryAllChurchesTest" />
+    </UnitTest>
+    <UnitTest name="SunriseTest" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="32b7237b-7e1b-0c4b-29e6-7fa7baf44c90">
+      <Execution id="33719931-d960-4e81-ae00-d07a207eb232" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.Infrastructure.Services.Weather.OnlineWeatherSystemTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SunriseTest" />
+    </UnitTest>
+    <UnitTest name="ToStringPeriodTest1" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="0bf737f1-ddf2-d8bd-5ce8-ad32bafb944d">
+      <Execution id="79e559d4-2d39-495d-9264-e35e9af0d6b5" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.Model.Common.ExtensionMethodsTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ToStringPeriodTest1" />
+    </UnitTest>
+    <UnitTest name="GetPlacesThatStartsWithTest" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="1f3f7d63-575f-a72a-56cf-a9f8d9ba2407">
+      <Execution id="ecca4549-2f09-4070-aa6a-1fe36a5d8e66" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.Application.Location.LocationAppTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetPlacesThatStartsWithTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0864fe4d-689f-5974-0e9d-6e9fcda025c4" executionId="7febeafb-bf96-48a6-acf6-9042a4750d7b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0bf737f1-ddf2-d8bd-5ce8-ad32bafb944d" executionId="79e559d4-2d39-495d-9264-e35e9af0d6b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11783d2b-995f-4417-e252-e2f5d63e0b69" executionId="2414b2c7-3793-45e3-b8c4-348f46b82cc9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1f3f7d63-575f-a72a-56cf-a9f8d9ba2407" executionId="ecca4549-2f09-4070-aa6a-1fe36a5d8e66" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32b7237b-7e1b-0c4b-29e6-7fa7baf44c90" executionId="33719931-d960-4e81-ae00-d07a207eb232" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="537bb603-3242-6bf0-1b72-4092b725c941" executionId="c91d2b5c-0068-4ebc-b276-459055620df9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8c0d46d1-426d-1fdb-d4ee-a66179e83716" executionId="f400d1f5-2b64-4fb5-b53a-94a0953a24e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="92992327-5cf3-d9e7-1e39-728333111100" executionId="70a9e646-fa63-4781-8966-a66931f07c72" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="946dc9c9-46a9-bb73-4dcf-f62ee5db18ed" executionId="3fa458a0-832f-4147-8d79-509cae4b866e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ac2e02c-8615-bb57-179e-40b1b18a2d39" executionId="724e2777-41fc-4c34-9b1c-e8cfce860589" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bbb77ad7-d984-0460-ed5a-4aa30565831c" executionId="fd19a4e8-8a88-4d92-81e4-f857f4e5de51" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bd41479b-3a45-dee0-8177-5403b84603ba" executionId="0ad91896-2ad8-408e-b6a5-f5160c780d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf06b9b2-778f-177a-8646-702b1e802305" executionId="58354e02-6c97-4992-a569-29dcdd280a2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7febeafb-bf96-48a6-acf6-9042a4750d7b" testId="0864fe4d-689f-5974-0e9d-6e9fcda025c4" testName="QueryAllPlacesTest" computerName="ANTIVAHPPC1" duration="00:00:15.3074784" startTime="2012-04-17T00:08:20.9179782+02:00" endTime="2012-04-17T00:08:36.5278711+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7febeafb-bf96-48a6-acf6-9042a4750d7b">
+      <Output>
+        <DebugTrace>Unable to read configuration section common/logging.  Using no-op implemenation.
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Test method Weather.Tests.Infrastructure.Dao.PlacesNorwayDaoTest.QueryAllPlacesTest threw exception: 
+Spring.Data.CannotGetAdoConnectionException: Could not get ADO.NET connection. ---&gt; System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Spring.Data.Support.ConnectionUtils.DoGetConnection(IDbProvider provider)
+   at Spring.Data.Support.ConnectionUtils.GetConnectionTxPair(IDbProvider provider)
+ --- End of inner exception stack trace ---
+    at Spring.Data.Support.ConnectionUtils.GetConnectionTxPair(IDbProvider provider)
+   at Spring.Data.Core.AdoAccessor.GetConnectionTxPair(IDbProvider provider)
+   at Spring.Data.Generic.AdoTemplate.Execute[T](IDbCommandCallback`1 action)
+   at Spring.Data.Generic.AdoTemplate.QueryWithResultSetExtractor[T](CommandType cmdType, String cmdText, IResultSetExtractor`1 resultSetExtractor)
+   at Spring.Data.Generic.AdoTemplate.QueryWithRowMapper[T](CommandType cmdType, String cmdText, IRowMapper`1 rowMapper)
+   at Weather.Infrastructure.Dao.PlacesNorwayDao.QueryAllPlaces() in C:\GitRepositories\Weather\Weather.Infrastructure\Dao\PlacesNorwayDao.cs:line 32
+   at Weather.Tests.Infrastructure.Dao.PlacesNorwayDaoTest.QueryAllPlacesTest() in C:\GitRepositories\Weather\Weather.Tests\Infrastructure\Dao\PlacesNorwayDaoTest.cs:line 79
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="79e559d4-2d39-495d-9264-e35e9af0d6b5" testId="0bf737f1-ddf2-d8bd-5ce8-ad32bafb944d" testName="ToStringPeriodTest1" computerName="ANTIVAHPPC1" duration="00:00:00.0007122" startTime="2012-04-17T00:08:36.5308713+02:00" endTime="2012-04-17T00:08:36.5348715+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="79e559d4-2d39-495d-9264-e35e9af0d6b5">
+    </UnitTestResult>
+    <UnitTestResult executionId="2414b2c7-3793-45e3-b8c4-348f46b82cc9" testId="11783d2b-995f-4417-e252-e2f5d63e0b69" testName="QueryAllChurchesTest" computerName="ANTIVAHPPC1" duration="00:00:00.0026548" startTime="2012-04-17T00:08:36.5358715+02:00" endTime="2012-04-17T00:08:36.5408718+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2414b2c7-3793-45e3-b8c4-348f46b82cc9">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Weather.Tests.Infrastructure.Dao.PlacesNorwayDaoTest.QueryAllChurchesTest threw exception: 
+Spring.Data.CannotGetAdoConnectionException: Could not get ADO.NET connection. ---&gt; System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)</Message>
+          <StackTrace>    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Spring.Data.Support.ConnectionUtils.DoGetConnection(IDbProvider provider)
+   at Spring.Data.Support.ConnectionUtils.GetConnectionTxPair(IDbProvider provider)
+ --- End of inner exception stack trace ---
+    at Spring.Data.Support.ConnectionUtils.GetConnectionTxPair(IDbProvider provider)
+   at Spring.Data.Core.AdoAccessor.GetConnectionTxPair(IDbProvider provider)
+   at Spring.Data.Generic.AdoTemplate.Execute[T](IDbCommandCallback`1 action)
+   at Spring.Data.Generic.AdoTemplate.QueryWithResultSetExtractor[T](CommandType cmdType, String cmdText, IResultSetExtractor`1 resultSetExtractor)
+   at Spring.Data.Generic.AdoTemplate.QueryWithRowMapper[T](CommandType cmdType, String cmdText, IRowMapper`1 rowMapper)
+   at Weather.Infrastructure.Dao.PlacesNorwayDao.QueryAllChurches() in C:\GitRepositories\Weather\Weather.Infrastructure\Dao\PlacesNorwayDao.cs:line 40
+   at Weather.Tests.Infrastructure.Dao.PlacesNorwayDaoTest.QueryAllChurchesTest() in C:\GitRepositories\Weather\Weather.Tests\Infrastructure\Dao\PlacesNorwayDaoTest.cs:line 88
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ecca4549-2f09-4070-aa6a-1fe36a5d8e66" testId="1f3f7d63-575f-a72a-56cf-a9f8d9ba2407" testName="GetPlacesThatStartsWithTest" computerName="ANTIVAHPPC1" duration="00:00:00.0260019" startTime="2012-04-17T00:08:36.5428719+02:00" endTime="2012-04-17T00:08:36.5718736+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ecca4549-2f09-4070-aa6a-1fe36a5d8e66">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Weather.Tests.Application.Location.LocationAppTest.GetPlacesThatStartsWithTest threw exception: 
+Spring.Data.CannotGetAdoConnectionException: Could not get ADO.NET connection. ---&gt; System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)</Message>
+          <StackTrace>    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Spring.Data.Support.ConnectionUtils.DoGetConnection(IDbProvider provider)
+   at Spring.Data.Support.ConnectionUtils.GetConnectionTxPair(IDbProvider provider)
+ --- End of inner exception stack trace ---
+    at Spring.Data.Support.ConnectionUtils.GetConnectionTxPair(IDbProvider provider)
+   at Spring.Data.Core.AdoAccessor.GetConnectionTxPair(IDbProvider provider)
+   at Spring.Data.Generic.AdoTemplate.Execute[T](IDbCommandCallback`1 action)
+   at Spring.Data.Generic.AdoTemplate.QueryWithResultSetExtractor[T](CommandType cmdType, String cmdText, IResultSetExtractor`1 resultSetExtractor)
+   at Spring.Data.Generic.AdoTemplate.QueryWithRowMapper[T](CommandType cmdType, String cmdText, IRowMapper`1 rowMapper)
+   at Weather.Infrastructure.Dao.PlacesNorwayDao.QueryAllPlaces() in C:\GitRepositories\Weather\Weather.Infrastructure\Dao\PlacesNorwayDao.cs:line 32
+   at Weather.Infrastructure.Services.Location.OnlineLocationSystem.GetAllPlaces(String countryCode) in C:\GitRepositories\Weather\Weather.Infrastructure\Services\Location\OnlineLocationSystem.cs:line 25
+   at _dynamic_Weather.Infrastructure.Services.Location.OnlineLocationSystem.GetAllPlaces(Object , Object[] )
+   at Spring.Reflection.Dynamic.SafeMethod.Invoke(Object target, Object[] arguments)
+   at Spring.Aop.Framework.DynamicMethodInvocation.InvokeJoinpoint()
+   at Spring.Aop.Framework.AbstractMethodInvocation.Proceed()
+   at Spring.Aspects.Cache.CacheResultAdvice.GetReturnValue(IMethodInvocation invocation, CacheResultAttribute resultInfo, IDictionary vars, Boolean&amp; cacheHit)
+   at Spring.Aspects.Cache.CacheResultAdvice.Invoke(IMethodInvocation invocation)
+   at Spring.Aop.Framework.AbstractMethodInvocation.Proceed()
+   at Spring.Aop.Framework.DynamicProxy.AdvisedProxy.Invoke(Object proxy, Object target, Type targetType, MethodInfo targetMethod, MethodInfo proxyMethod, Object[] args, IList interceptors)
+   at CompositionAopProxy_e0e6428a26984595a08455c20a2199e2.GetAllPlaces(String countryCode)
+   at Weather.Application.Location.LocationApp.GetPlacesThatStartsWith(String countryCode, String query) in C:\GitRepositories\Weather\Weather.Application\Location\LocationApp.cs:line 20
+   at Weather.Tests.Application.Location.LocationAppTest.GetPlacesThatStartsWithTest() in C:\GitRepositories\Weather\Weather.Tests\Application\Location\LocationAppTest.cs:line 68
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="33719931-d960-4e81-ae00-d07a207eb232" testId="32b7237b-7e1b-0c4b-29e6-7fa7baf44c90" testName="SunriseTest" computerName="ANTIVAHPPC1" duration="00:00:00.0865073" startTime="2012-04-17T00:08:36.5768739+02:00" endTime="2012-04-17T00:08:36.6668790+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="33719931-d960-4e81-ae00-d07a207eb232">
+    </UnitTestResult>
+    <UnitTestResult executionId="c91d2b5c-0068-4ebc-b276-459055620df9" testId="537bb603-3242-6bf0-1b72-4092b725c941" testName="GetAllChurchesInNorway" computerName="ANTIVAHPPC1" duration="00:00:00.0048461" startTime="2012-04-17T00:08:36.6698792+02:00" endTime="2012-04-17T00:08:36.6858801+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c91d2b5c-0068-4ebc-b276-459055620df9">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Weather.Tests.Infrastructure.Services.Location.OnlineLocationSystemTest.GetAllChurchesInNorway threw exception: 
+Spring.Data.CannotGetAdoConnectionException: Could not get ADO.NET connection. ---&gt; System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)</Message>
+          <StackTrace>    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Spring.Data.Support.ConnectionUtils.DoGetConnection(IDbProvider provider)
+   at Spring.Data.Support.ConnectionUtils.GetConnectionTxPair(IDbProvider provider)
+ --- End of inner exception stack trace ---
+    at Spring.Data.Support.ConnectionUtils.GetConnectionTxPair(IDbProvider provider)
+   at Spring.Data.Core.AdoAccessor.GetConnectionTxPair(IDbProvider provider)
+   at Spring.Data.Generic.AdoTemplate.Execute[T](IDbCommandCallback`1 action)
+   at Spring.Data.Generic.AdoTemplate.QueryWithResultSetExtractor[T](CommandType cmdType, String cmdText, IResultSetExtractor`1 resultSetExtractor)
+   at Spring.Data.Generic.AdoTemplate.QueryWithRowMapper[T](CommandType cmdType, String cmdText, IRowMapper`1 rowMapper)
+   at Weather.Infrastructure.Dao.PlacesNorwayDao.QueryAllChurches() in C:\GitRepositories\Weather\Weather.Infrastructure\Dao\PlacesNorwayDao.cs:line 40
+   at Weather.Infrastructure.Services.Location.OnlineLocationSystem.GetAllChurches(String countryCode) in C:\GitRepositories\Weather\Weather.Infrastructure\Services\Location\OnlineLocationSystem.cs:line 59
+   at Weather.Tests.Infrastructure.Services.Location.OnlineLocationSystemTest.GetAllChurchesInNorway() in C:\GitRepositories\Weather\Weather.Tests\Infrastructure\Services\Location\OnlineLocationSystemTest.cs:line 68
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f400d1f5-2b64-4fb5-b53a-94a0953a24e8" testId="8c0d46d1-426d-1fdb-d4ee-a66179e83716" testName="ToStringPeriodTest3" computerName="ANTIVAHPPC1" duration="00:00:00.0002187" startTime="2012-04-17T00:08:36.6918805+02:00" endTime="2012-04-17T00:08:36.6958807+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f400d1f5-2b64-4fb5-b53a-94a0953a24e8">
+    </UnitTestResult>
+    <UnitTestResult executionId="70a9e646-fa63-4781-8966-a66931f07c72" testId="92992327-5cf3-d9e7-1e39-728333111100" testName="LocationForecastTest" computerName="ANTIVAHPPC1" duration="00:00:00.2372949" startTime="2012-04-17T00:08:36.6978808+02:00" endTime="2012-04-17T00:08:36.9408947+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70a9e646-fa63-4781-8966-a66931f07c72">
+    </UnitTestResult>
+    <UnitTestResult executionId="3fa458a0-832f-4147-8d79-509cae4b866e" testId="946dc9c9-46a9-bb73-4dcf-f62ee5db18ed" testName="ToStringPeriodTest2" computerName="ANTIVAHPPC1" duration="00:00:00.0002108" startTime="2012-04-17T00:08:36.9578957+02:00" endTime="2012-04-17T00:08:36.9638960+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3fa458a0-832f-4147-8d79-509cae4b866e">
+    </UnitTestResult>
+    <UnitTestResult executionId="724e2777-41fc-4c34-9b1c-e8cfce860589" testId="9ac2e02c-8615-bb57-179e-40b1b18a2d39" testName="DateTimeParseTest" computerName="ANTIVAHPPC1" duration="00:00:00.0023334" startTime="2012-04-17T00:08:36.9658961+02:00" endTime="2012-04-17T00:08:36.9718965+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="724e2777-41fc-4c34-9b1c-e8cfce860589">
+    </UnitTestResult>
+    <UnitTestResult executionId="fd19a4e8-8a88-4d92-81e4-f857f4e5de51" testId="bbb77ad7-d984-0460-ed5a-4aa30565831c" testName="ForecastDataTest" computerName="ANTIVAHPPC1" duration="00:00:00.6575953" startTime="2012-04-17T00:08:36.9748966+02:00" endTime="2012-04-17T00:08:37.6359345+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fd19a4e8-8a88-4d92-81e4-f857f4e5de51">
+    </UnitTestResult>
+    <UnitTestResult executionId="0ad91896-2ad8-408e-b6a5-f5160c780d4b" testId="bd41479b-3a45-dee0-8177-5403b84603ba" testName="GetPlaceTest" computerName="ANTIVAHPPC1" duration="00:00:00.0115953" startTime="2012-04-17T00:08:37.6379346+02:00" endTime="2012-04-17T00:08:37.6599358+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ad91896-2ad8-408e-b6a5-f5160c780d4b">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Weather.Tests.Infrastructure.Dao.PlacesNorwayDaoTest.GetPlaceTest threw exception: 
+Spring.Data.CannotGetAdoConnectionException: Could not get ADO.NET connection. ---&gt; System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)</Message>
+          <StackTrace>    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Spring.Data.Support.ConnectionUtils.DoGetConnection(IDbProvider provider)
+   at Spring.Data.Support.ConnectionUtils.GetConnectionTxPair(IDbProvider provider)
+ --- End of inner exception stack trace ---
+    at Spring.Data.Support.ConnectionUtils.GetConnectionTxPair(IDbProvider provider)
+   at Spring.Data.Core.AdoAccessor.GetConnectionTxPair(IDbProvider provider)
+   at Spring.Data.Generic.AdoTemplate.Execute[T](IDbCommandCallback`1 action)
+   at Spring.Data.Generic.AdoTemplate.QueryWithResultSetExtractor[T](CommandType commandType, String cmdText, IResultSetExtractor`1 resultSetExtractor, IDbParameters parameters)
+   at Spring.Data.Generic.AdoTemplate.QueryWithRowMapper[T](CommandType cmdType, String cmdText, IRowMapper`1 rowMapper, IDbParameters parameters)
+   at Spring.Data.Generic.AdoTemplate.QueryForObject[T](CommandType cmdType, String cmdText, IRowMapper`1 rowMapper, IDbParameters parameters)
+   at Weather.Infrastructure.Dao.PlacesNorwayDao.GetPlace(Int32 id) in C:\GitRepositories\Weather\Weather.Infrastructure\Dao\PlacesNorwayDao.cs:line 22
+   at Weather.Tests.Infrastructure.Dao.PlacesNorwayDaoTest.GetPlaceTest() in C:\GitRepositories\Weather\Weather.Tests\Infrastructure\Dao\PlacesNorwayDaoTest.cs:line 70
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="58354e02-6c97-4992-a569-29dcdd280a2c" testId="bf06b9b2-778f-177a-8646-702b1e802305" testName="ImageUrlTest" computerName="ANTIVAHPPC1" duration="00:00:00.0002748" startTime="2012-04-17T00:08:37.6629360+02:00" endTime="2012-04-17T00:08:37.6709365+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="58354e02-6c97-4992-a569-29dcdd280a2c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

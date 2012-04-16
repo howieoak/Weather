@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5c6f72ff-5571-4e0b-8d87-0b0de8ca844a" name="HP-Bruker-1@ANTIVAHPPC1 2012-04-17 00:09:19" runUser="AntivaHPPC1\HP-Bruker-1" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="63e443fe-ca2a-4446-97f8-47736039bcb1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="HP-Bruker-1_ANTIVAHPPC1 2012-04-17 00_09_19">
+      <DeploymentItem filename="C:\GitRepositories\Weather\SharedBinaries\Libs\Spring\Spring 1.3.2\Spring.Core.dll" />
+      <DeploymentItem filename="C:\GitRepositories\Weather\Weather.Application\bin\Debug\Weather.Application.dll" />
+      <DeploymentItem filename="C:\GitRepositories\Weather\SharedBinaries\Libs\Spring\Spring 1.3.2\Spring.Data.dll" />
+      <DeploymentItem filename="C:\GitRepositories\Weather\Weather.Infrastructure\bin\Debug\Weather.Infrastructure.dll" />
+      <DeploymentItem filename="C:\GitRepositories\Weather\Weather.Model\bin\Debug\Weather.Model.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-17T00:09:19.1453087+02:00" queuing="2012-04-17T00:09:19.1903112+02:00" start="2012-04-17T00:09:19.2213130+02:00" finish="2012-04-17T00:09:22.3644928+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="13" executed="13" passed="13" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LocationForecastTest" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="92992327-5cf3-d9e7-1e39-728333111100">
+      <Execution id="2c3c08c9-16b7-497c-bd91-cabfcbbe3079" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.Infrastructure.Services.Weather.OnlineWeatherSystemTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LocationForecastTest" />
+    </UnitTest>
+    <UnitTest name="ImageUrlTest" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="bf06b9b2-778f-177a-8646-702b1e802305">
+      <Execution id="5b24c3c5-f6bd-4d67-9a6c-213f9cdb7607" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.FrameworkTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ImageUrlTest" />
+    </UnitTest>
+    <UnitTest name="ToStringPeriodTest3" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="8c0d46d1-426d-1fdb-d4ee-a66179e83716">
+      <Execution id="b3788e9f-f84b-4ed8-9749-911d71d4d7cc" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.Model.Common.ExtensionMethodsTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ToStringPeriodTest3" />
+    </UnitTest>
+    <UnitTest name="GetAllChurchesInNorway" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="537bb603-3242-6bf0-1b72-4092b725c941">
+      <Execution id="e87e3675-8c36-4bf3-a809-3453feee620f" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.Infrastructure.Services.Location.OnlineLocationSystemTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllChurchesInNorway" />
+    </UnitTest>
+    <UnitTest name="ForecastDataTest" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="bbb77ad7-d984-0460-ed5a-4aa30565831c">
+      <Execution id="db5e9df4-8717-48a2-bfda-f0484207e1b4" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.Infrastructure.Services.Weather.OnlineWeatherSystemTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ForecastDataTest" />
+    </UnitTest>
+    <UnitTest name="DateTimeParseTest" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="9ac2e02c-8615-bb57-179e-40b1b18a2d39">
+      <Execution id="9e8d734d-c283-4cf5-bed6-b6910073c313" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.FrameworkTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DateTimeParseTest" />
+    </UnitTest>
+    <UnitTest name="ToStringPeriodTest2" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="946dc9c9-46a9-bb73-4dcf-f62ee5db18ed">
+      <Execution id="17a8cdcf-7f0f-46bc-bf23-8637fa43bebf" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.Model.Common.ExtensionMethodsTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ToStringPeriodTest2" />
+    </UnitTest>
+    <UnitTest name="QueryAllPlacesTest" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="0864fe4d-689f-5974-0e9d-6e9fcda025c4">
+      <Execution id="5b79f978-1144-48dc-8baf-1f94192886d7" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.Infrastructure.Dao.PlacesNorwayDaoTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="QueryAllPlacesTest" />
+    </UnitTest>
+    <UnitTest name="GetPlaceTest" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="bd41479b-3a45-dee0-8177-5403b84603ba">
+      <Execution id="189f0e64-d1e0-4d8e-af13-ce73fa0fb035" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.Infrastructure.Dao.PlacesNorwayDaoTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetPlaceTest" />
+    </UnitTest>
+    <UnitTest name="QueryAllChurchesTest" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="11783d2b-995f-4417-e252-e2f5d63e0b69">
+      <Execution id="5e4c2c84-e6f2-4868-9fd1-87ea51477403" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.Infrastructure.Dao.PlacesNorwayDaoTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="QueryAllChurchesTest" />
+    </UnitTest>
+    <UnitTest name="SunriseTest" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="32b7237b-7e1b-0c4b-29e6-7fa7baf44c90">
+      <Execution id="4ab9e8e6-59cc-48f1-85a9-5c177dde1bd1" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.Infrastructure.Services.Weather.OnlineWeatherSystemTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SunriseTest" />
+    </UnitTest>
+    <UnitTest name="ToStringPeriodTest1" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="0bf737f1-ddf2-d8bd-5ce8-ad32bafb944d">
+      <Execution id="292d846d-7ce2-449b-8502-dd5d49ca00e2" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.Model.Common.ExtensionMethodsTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ToStringPeriodTest1" />
+    </UnitTest>
+    <UnitTest name="GetPlacesThatStartsWithTest" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="1f3f7d63-575f-a72a-56cf-a9f8d9ba2407">
+      <Execution id="c67f220e-6f4e-4836-935e-7de9b384e257" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.Application.Location.LocationAppTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetPlacesThatStartsWithTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0864fe4d-689f-5974-0e9d-6e9fcda025c4" executionId="5b79f978-1144-48dc-8baf-1f94192886d7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0bf737f1-ddf2-d8bd-5ce8-ad32bafb944d" executionId="292d846d-7ce2-449b-8502-dd5d49ca00e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11783d2b-995f-4417-e252-e2f5d63e0b69" executionId="5e4c2c84-e6f2-4868-9fd1-87ea51477403" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1f3f7d63-575f-a72a-56cf-a9f8d9ba2407" executionId="c67f220e-6f4e-4836-935e-7de9b384e257" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32b7237b-7e1b-0c4b-29e6-7fa7baf44c90" executionId="4ab9e8e6-59cc-48f1-85a9-5c177dde1bd1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="537bb603-3242-6bf0-1b72-4092b725c941" executionId="e87e3675-8c36-4bf3-a809-3453feee620f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8c0d46d1-426d-1fdb-d4ee-a66179e83716" executionId="b3788e9f-f84b-4ed8-9749-911d71d4d7cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="92992327-5cf3-d9e7-1e39-728333111100" executionId="2c3c08c9-16b7-497c-bd91-cabfcbbe3079" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="946dc9c9-46a9-bb73-4dcf-f62ee5db18ed" executionId="17a8cdcf-7f0f-46bc-bf23-8637fa43bebf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ac2e02c-8615-bb57-179e-40b1b18a2d39" executionId="9e8d734d-c283-4cf5-bed6-b6910073c313" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bbb77ad7-d984-0460-ed5a-4aa30565831c" executionId="db5e9df4-8717-48a2-bfda-f0484207e1b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bd41479b-3a45-dee0-8177-5403b84603ba" executionId="189f0e64-d1e0-4d8e-af13-ce73fa0fb035" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf06b9b2-778f-177a-8646-702b1e802305" executionId="5b24c3c5-f6bd-4d67-9a6c-213f9cdb7607" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5b79f978-1144-48dc-8baf-1f94192886d7" testId="0864fe4d-689f-5974-0e9d-6e9fcda025c4" testName="QueryAllPlacesTest" computerName="ANTIVAHPPC1" duration="00:00:00.8504809" startTime="2012-04-17T00:09:19.2303135+02:00" endTime="2012-04-17T00:09:20.3523777+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b79f978-1144-48dc-8baf-1f94192886d7">
+      <Output>
+        <DebugTrace>Unable to read configuration section common/logging.  Using no-op implemenation.
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="292d846d-7ce2-449b-8502-dd5d49ca00e2" testId="0bf737f1-ddf2-d8bd-5ce8-ad32bafb944d" testName="ToStringPeriodTest1" computerName="ANTIVAHPPC1" duration="00:00:00.0011347" startTime="2012-04-17T00:09:20.3543778+02:00" endTime="2012-04-17T00:09:20.3593781+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="292d846d-7ce2-449b-8502-dd5d49ca00e2">
+    </UnitTestResult>
+    <UnitTestResult executionId="5e4c2c84-e6f2-4868-9fd1-87ea51477403" testId="11783d2b-995f-4417-e252-e2f5d63e0b69" testName="QueryAllChurchesTest" computerName="ANTIVAHPPC1" duration="00:00:00.0147788" startTime="2012-04-17T00:09:20.3613782+02:00" endTime="2012-04-17T00:09:20.3793792+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5e4c2c84-e6f2-4868-9fd1-87ea51477403">
+    </UnitTestResult>
+    <UnitTestResult executionId="c67f220e-6f4e-4836-935e-7de9b384e257" testId="1f3f7d63-575f-a72a-56cf-a9f8d9ba2407" testName="GetPlacesThatStartsWithTest" computerName="ANTIVAHPPC1" duration="00:00:00.1044199" startTime="2012-04-17T00:09:20.3813794+02:00" endTime="2012-04-17T00:09:20.4893855+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c67f220e-6f4e-4836-935e-7de9b384e257">
+    </UnitTestResult>
+    <UnitTestResult executionId="4ab9e8e6-59cc-48f1-85a9-5c177dde1bd1" testId="32b7237b-7e1b-0c4b-29e6-7fa7baf44c90" testName="SunriseTest" computerName="ANTIVAHPPC1" duration="00:00:00.0435335" startTime="2012-04-17T00:09:20.4923857+02:00" endTime="2012-04-17T00:09:20.5403885+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4ab9e8e6-59cc-48f1-85a9-5c177dde1bd1">
+    </UnitTestResult>
+    <UnitTestResult executionId="e87e3675-8c36-4bf3-a809-3453feee620f" testId="537bb603-3242-6bf0-1b72-4092b725c941" testName="GetAllChurchesInNorway" computerName="ANTIVAHPPC1" duration="00:00:00.0147737" startTime="2012-04-17T00:09:20.5423886+02:00" endTime="2012-04-17T00:09:20.5613897+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e87e3675-8c36-4bf3-a809-3453feee620f">
+    </UnitTestResult>
+    <UnitTestResult executionId="b3788e9f-f84b-4ed8-9749-911d71d4d7cc" testId="8c0d46d1-426d-1fdb-d4ee-a66179e83716" testName="ToStringPeriodTest3" computerName="ANTIVAHPPC1" duration="00:00:00.0002266" startTime="2012-04-17T00:09:20.5643898+02:00" endTime="2012-04-17T00:09:20.5673900+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3788e9f-f84b-4ed8-9749-911d71d4d7cc">
+    </UnitTestResult>
+    <UnitTestResult executionId="2c3c08c9-16b7-497c-bd91-cabfcbbe3079" testId="92992327-5cf3-d9e7-1e39-728333111100" testName="LocationForecastTest" computerName="ANTIVAHPPC1" duration="00:00:00.1160382" startTime="2012-04-17T00:09:20.5703902+02:00" endTime="2012-04-17T00:09:20.6933972+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c3c08c9-16b7-497c-bd91-cabfcbbe3079">
+    </UnitTestResult>
+    <UnitTestResult executionId="17a8cdcf-7f0f-46bc-bf23-8637fa43bebf" testId="946dc9c9-46a9-bb73-4dcf-f62ee5db18ed" testName="ToStringPeriodTest2" computerName="ANTIVAHPPC1" duration="00:00:00.0002092" startTime="2012-04-17T00:09:20.6993975+02:00" endTime="2012-04-17T00:09:20.7043978+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="17a8cdcf-7f0f-46bc-bf23-8637fa43bebf">
+    </UnitTestResult>
+    <UnitTestResult executionId="9e8d734d-c283-4cf5-bed6-b6910073c313" testId="9ac2e02c-8615-bb57-179e-40b1b18a2d39" testName="DateTimeParseTest" computerName="ANTIVAHPPC1" duration="00:00:00.0021995" startTime="2012-04-17T00:09:20.7063979+02:00" endTime="2012-04-17T00:09:20.7123983+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e8d734d-c283-4cf5-bed6-b6910073c313">
+    </UnitTestResult>
+    <UnitTestResult executionId="db5e9df4-8717-48a2-bfda-f0484207e1b4" testId="bbb77ad7-d984-0460-ed5a-4aa30565831c" testName="ForecastDataTest" computerName="ANTIVAHPPC1" duration="00:00:00.0655722" startTime="2012-04-17T00:09:20.7153985+02:00" endTime="2012-04-17T00:09:20.7844024+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db5e9df4-8717-48a2-bfda-f0484207e1b4">
+    </UnitTestResult>
+    <UnitTestResult executionId="189f0e64-d1e0-4d8e-af13-ce73fa0fb035" testId="bd41479b-3a45-dee0-8177-5403b84603ba" testName="GetPlaceTest" computerName="ANTIVAHPPC1" duration="00:00:00.0132832" startTime="2012-04-17T00:09:20.7864025+02:00" endTime="2012-04-17T00:09:20.8054036+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="189f0e64-d1e0-4d8e-af13-ce73fa0fb035">
+    </UnitTestResult>
+    <UnitTestResult executionId="5b24c3c5-f6bd-4d67-9a6c-213f9cdb7607" testId="bf06b9b2-778f-177a-8646-702b1e802305" testName="ImageUrlTest" computerName="ANTIVAHPPC1" duration="00:00:00.0002669" startTime="2012-04-17T00:09:20.8094038+02:00" endTime="2012-04-17T00:09:20.8144041+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b24c3c5-f6bd-4d67-9a6c-213f9cdb7607">
+    </UnitTestResult>
+  </Results>
+</TestRun>
