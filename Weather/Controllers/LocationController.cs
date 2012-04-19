@@ -10,8 +10,10 @@ namespace Weather.Controllers
 {
     public class LocationController : Controller
     {
-        //
-        // GET: /Location/
+        public ActionResult Index()
+        {
+            return View();
+        }
 
         public ActionResult Map()
         {
@@ -31,6 +33,20 @@ namespace Weather.Controllers
             IList<Place> churches = LocationApp.GetChurchesTop("NO", 20);
 
             return View(churches);
+        }
+
+        public PartialViewResult Search(string place)
+        {
+            IList<Place> places = LocationApp.GetPlacesThatStartsWith("NO", place);
+
+            return PartialView("_LocationSearchResult", places);
+        }
+
+        public JsonResult QuickSearch(string term)
+        {
+            var places = LocationApp.AutocompleteGetPlacesThatStartsWith("NO", term);
+            //var places = LocationApp.AutocompleteGetPlacesTopThatContains("NO", 10, term);
+            return Json(places, JsonRequestBehavior.AllowGet);
         }
 
     }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Weather.Model.Domain;
+using Weather.Model.Common;
 
 namespace Weather.Infrastructure.Services.Weather.Entities
 {
@@ -32,9 +33,9 @@ namespace Weather.Infrastructure.Services.Weather.Entities
                 SymbolName = this.SymbolName,
                 SymbolNumber = this.SymbolNumber,
                 SymbolVar = this.SymbolVar,
-                Presipitation = Double.Parse(this.Presipitation),
-                PresipitationMin = Double.Parse(this.PresipitationMin),
-                PresipitationMax = Double.Parse(this.PresipitationMax),
+                Presipitation = this.Presipitation.ToDoubleComma(),
+                PresipitationMin = PresipitationMin.ToDoubleComma(),
+                PresipitationMax = this.PresipitationMax.ToDoubleComma(),
                 Temperature = Int32.Parse(this.Temperature)
             };
 

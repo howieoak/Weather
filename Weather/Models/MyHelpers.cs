@@ -18,7 +18,7 @@ namespace Weather.Models
             return MvcHtmlString.Create(builder.ToString(TagRenderMode.SelfClosing));
         }
 
-        public static string ImageUrl(string var)
+        public static string WeatherImageUrl(string var)
         {
             return string.Format("/Content/images/yr-icons/icons_120x100/{0}.png", Helpers.ParseSymbolVar(var));
         }

@@ -1,4 +1,5 @@
-﻿namespace Weather.Model.Domain
+﻿using System.Text;
+namespace Weather.Model.Domain
 {
     public class Place
     {
@@ -11,5 +12,13 @@
         public double Latitude { get; set; }
         public double Longitude { get; set; }
         public string ForecastUri { get; set; }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append(PlaceName).Append(":").Append(PlaceId.ToString());
+
+            return sb.ToString();
+        }
     }
 }

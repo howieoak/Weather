@@ -4,8 +4,7 @@
     ViewBag.Title = "Places";
 }
 
-@section Style
-{
+@section Style {
 <style type="text/css"> 
     .ui-button { font-size: .8em; } 
 </style>
@@ -70,7 +69,7 @@
             }
         </td>
         <td>
-            @using (Html.BeginForm("Forecast", "Weather"))
+            @using (Html.BeginForm("Forecast", "Weather", FormMethod.Get))
             {
                 @Html.Hidden("id", @item.PlaceId)
                 <input type="submit" value="Vis vær data" />

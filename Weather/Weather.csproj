@@ -240,6 +240,7 @@
     <Content Include="Content\themes\ui-lightness\jquery-ui.css" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Scripts\home_index.js" />
     <Content Include="Scripts\jquery-1.6.2-vsdoc.js" />
     <Content Include="Scripts\jquery-1.6.2.js" />
     <Content Include="Scripts\jquery-1.6.2.min.js" />
@@ -252,6 +253,7 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\shared_forecast_upcomming.js" />
     <Content Include="Scripts\knockout-2.0.0.debug.js" />
     <Content Include="Scripts\knockout-2.0.0.js" />
     <Content Include="Scripts\location_places.js" />
@@ -316,7 +318,7 @@
     <Content Include="Views\Home\VarselTab.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Location\LocationSearchResult.cshtml" />
+    <Content Include="Views\Location\_LocationSearchResult.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Shared\_LogOnPartial.cshtml" />
@@ -332,6 +334,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Weather\Forecast.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Location\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\_ForecastUpcomming.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
@@ -350,7 +358,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>64525</DevelopmentServerPort>
+          <DevelopmentServerPort>3025</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

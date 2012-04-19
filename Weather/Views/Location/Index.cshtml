@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Index";
+    AjaxOptions opts = new AjaxOptions
+    {
+        UpdateTargetId = "search_result",
+        HttpMethod = "GET",
+        LoadingElementId = "loading",
+    };
+}
+
+<h2>Index</h2>
+
+<p>Search for weather in your favourite location.</p>
+@using (Ajax.BeginForm("Search", "Location", opts))
+{
+    <input type="text" name="place" />       
+    <input type="submit" id="search" value="Søk etter sted" />
+}
+
+<div id="loading" style="display:none; color:Red; font-weight:bold">
+    <p>
+    @Html.Image("/Content/images/ajax-loader.gif", "")
+    Henter steder...
+    </p>
+</div>
+
+<div id="search_result" />
+

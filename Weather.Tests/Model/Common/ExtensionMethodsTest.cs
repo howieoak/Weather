@@ -73,5 +73,22 @@ namespace Weather.Tests.Model.Common
             double test3 = 1.12345;
             Assert.AreEqual("1.12345", test3.ToStringPeriod());
         }
+
+        [TestMethod]
+        public void ToDoubleCommaTest()
+        {
+            string test1 = "1.2";
+            Assert.AreEqual(1.2, test1.ToDoubleComma());
+
+            string test2 = "0.4";
+            Assert.AreEqual(0.4, test2.ToDoubleComma());
+
+            string test3 = ".456";
+            Assert.AreEqual(0.456, test3.ToDoubleComma());
+
+            string test4 = "0";
+            Assert.AreEqual<Double>(0, test4.ToDoubleComma());
+            
+        }
     }
 }

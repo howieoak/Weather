@@ -1,7 +1,12 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Paraply hjem";
+    AjaxOptions opts = new AjaxOptions
+    {
+        UpdateTargetId = "search_result",
+        HttpMethod = "GET",
+    };
 }
-<h2>Coming Soon!</h2>
+<h2>Nåværende værvarsel.</h2>
 
 
 @*
@@ -17,6 +22,20 @@
  @Html.Partial("_RestaurantList", Model)
 
 *@
+
+@using (Ajax.BeginForm("ForecastUpcomming", "Weather", opts))
+{
+    <span>Sted:</span>
+    <input type="text" name="place" data-autocomplete="@Url.Action("QuickSearch", "Location")" />       
+    <input type="submit" id="search" value="Vis varsel" />
+}
+
+<div id="search_result" />
+
+@section Script
+{
+    <script src="@Url.Content("~/Scripts/home_index.js")" type="text/javascript"></script>
+}
 
 
 @section Footer {

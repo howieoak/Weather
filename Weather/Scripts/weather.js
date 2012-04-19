@@ -71,5 +71,6 @@ function getLocation() {
 
 $(function() {
     getLocation();
+    $("span#temperature").css("color", "Red").css("font-size", "2.8em");
     
-});
+})

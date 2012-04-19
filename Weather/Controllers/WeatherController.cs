@@ -88,7 +88,6 @@ namespace Weather.Controllers
         }
 
 
-        [HttpPost]
         public ViewResult Forecast(int? id)
         {
             if (!id.HasValue)
@@ -100,9 +99,24 @@ namespace Weather.Controllers
             Place place = LocationApp.GetPlace("NO", id.Value);
             Forecast forecast = WeatherApp.GetWeatherForecast(place);
 
-            forecast.ImageUrl = MyHelpers.ImageUrl(forecast.SymbolVar); 
+            forecast.ImageUrl = MyHelpers.WeatherImageUrl(forecast.SymbolVar); 
 
             return View(forecast);
+        }
+
+        public PartialViewResult ForecastUpcomming(string place)
+        {
+            string[] mySplit = place.Split(':');
+
+            int placeId = Int32.Parse(mySplit[1]);
+
+            Place myPlace = LocationApp.GetPlace("NO", placeId);
+
+            Forecast forecast = WeatherApp.GetWeatherForecast(myPlace);
+
+            forecast.ImageUrl = MyHelpers.WeatherImageUrl(forecast.SymbolVar);
+
+            return PartialView("_ForecastUpcomming", forecast);
         }
 
     }

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="162e17e5-03e6-4368-9e17-f0e615aedb8c" name="HP-Bruker-1@ANTIVAHPPC1 2012-04-19 21:58:46" runUser="AntivaHPPC1\HP-Bruker-1" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="63e443fe-ca2a-4446-97f8-47736039bcb1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="HP-Bruker-1_ANTIVAHPPC1 2012-04-19 21_58_46">
+      <DeploymentItem filename="C:\GitRepositories\Weather\SharedBinaries\Libs\Spring\Spring 1.3.2\Spring.Core.dll" />
+      <DeploymentItem filename="C:\GitRepositories\Weather\Weather.Application\bin\Debug\Weather.Application.dll" />
+      <DeploymentItem filename="C:\GitRepositories\Weather\SharedBinaries\Libs\Spring\Spring 1.3.2\Spring.Data.dll" />
+      <DeploymentItem filename="C:\GitRepositories\Weather\Weather.Infrastructure\bin\Debug\Weather.Infrastructure.dll" />
+      <DeploymentItem filename="C:\GitRepositories\Weather\Weather.Model\bin\Debug\Weather.Model.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-19T21:58:46.0368261+02:00" queuing="2012-04-19T21:58:46.1478324+02:00" start="2012-04-19T21:58:46.1648334+02:00" finish="2012-04-19T21:58:46.4928521+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ToDoubleCommaTest" storage="c:\gitrepositories\weather\weather.tests\bin\debug\weather.tests.dll" id="09156bba-64dd-daab-52aa-3973cce6bd5b">
+      <Execution id="4427a356-7281-493d-9ccc-3bb80ba7a652" />
+      <TestMethod codeBase="C:/GitRepositories/Weather/Weather.Tests/bin/Debug/Weather.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Weather.Tests.Model.Common.ExtensionMethodsTest, Weather.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ToDoubleCommaTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="09156bba-64dd-daab-52aa-3973cce6bd5b" executionId="4427a356-7281-493d-9ccc-3bb80ba7a652" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4427a356-7281-493d-9ccc-3bb80ba7a652" testId="09156bba-64dd-daab-52aa-3973cce6bd5b" testName="ToDoubleCommaTest" computerName="ANTIVAHPPC1" duration="00:00:00.0160675" startTime="2012-04-19T21:58:46.1778341+02:00" endTime="2012-04-19T21:58:46.4708509+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4427a356-7281-493d-9ccc-3bb80ba7a652">
+    </UnitTestResult>
+  </Results>
+</TestRun>
