@@ -90,5 +90,21 @@ namespace Weather.Tests.Model.Common
             Assert.AreEqual<Double>(0, test4.ToDoubleComma());
             
         }
+
+        //[TestMethod]
+        //public void SortedByValueTest()
+        //{
+        //    Dictionary<string, int> myDict = new Dictionary<string, int>();
+        //    myDict.Add("one", 1);
+        //    myDict.Add("four", 4);
+        //    myDict.Add("two", 2);
+        //    myDict.Add("three", 3);
+
+        //    var sortedDict = myDict.Sort
+            
+        //}
+
+
+         
     }
 }

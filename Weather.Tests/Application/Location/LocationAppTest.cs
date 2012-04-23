@@ -75,5 +75,17 @@ namespace Weather.Tests.Application.Location
 
             Assert.IsTrue(places.Count > 0);
         }
+
+        [TestMethod]
+        public void GetClosestPlaceTest()
+        {
+            double longitude = 10.7460923576733;
+            double latitude = 59.912726542422;
+
+            Place place = LocationApp.GetClosestPlace("NO", latitude, longitude);
+
+
+            Assert.IsNotNull(place);
+        }
     }
 }

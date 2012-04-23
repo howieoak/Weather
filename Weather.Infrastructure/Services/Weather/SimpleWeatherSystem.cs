@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Weather.Model.Domain;
+
 
 namespace Weather.Infrastructure.Services.Weather
 {
@@ -30,10 +32,14 @@ namespace Weather.Infrastructure.Services.Weather
         }
 
 
-        public Model.Domain.Forecast ForcastData(Model.Domain.Place place)
+        public Forecast GetUpcommingForecast(Place place)
         {
             throw new NotImplementedException();
         }
 
+        public IList<Forecast> GetForecasts(Place place)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

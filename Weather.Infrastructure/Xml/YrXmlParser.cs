@@ -50,7 +50,7 @@ namespace Weather.Infrastructure.Xml
             return null;
         }
 
-        public static ForecastDto GetForecastData(Place place)
+        public static ForecastDto GetUpcommingForecast(Place place)
         {
             XElement weatherdata = XElement.Load(place.ForecastUri);
 
@@ -60,6 +60,33 @@ namespace Weather.Infrastructure.Xml
                                        //.Where (p => p.Attribute("period").Value == "1")
                                        .FirstOrDefault();
 
+            ForecastDto forecastDto = ExtractForecast(place, time);
+
+            return forecastDto;
+        }
+
+        public static IList<ForecastDto> GetForecasts(Place place)
+        {
+            ForecastDto forecastDto;
+            IList<ForecastDto> forecasts = new List<ForecastDto>();
+            
+            XElement weatherdata = XElement.Load(place.ForecastUri);
+
+            var times = weatherdata.Elements("forecast")
+                                       .Elements("tabular")
+                                       .Elements("time");
+
+            foreach (XElement time in times)
+            {
+                forecastDto = ExtractForecast(place, time);
+                forecasts.Add(forecastDto);
+            }
+
+            return forecasts;
+        }
+
+        private static ForecastDto ExtractForecast(Place place, XElement time)
+        {
             XElement symbol = time.Elements("symbol")
                                   .FirstOrDefault();
 
@@ -69,7 +96,6 @@ namespace Weather.Infrastructure.Xml
             XElement temperature = time.Elements("temperature")
                                        .FirstOrDefault();
 
-            
             ForecastDto forecastDto = new ForecastDto
             {
                 LocationName = place.PlaceName,
@@ -80,8 +106,8 @@ namespace Weather.Infrastructure.Xml
                 SymbolNumber = symbol.Attribute("number").Value,
                 SymbolVar = symbol.Attribute("var").Value,
                 Presipitation = precipitation.Attribute("value").Value,
-                PresipitationMin = (precipitation.Attribute("value").Value != "0") ? precipitation.Attribute("minvalue").Value : "0",
-                PresipitationMax = (precipitation.Attribute("value").Value != "0") ? precipitation.Attribute("maxvalue").Value : "0",
+                PresipitationMin = (precipitation.Attribute("minvalue") != null) ? precipitation.Attribute("minvalue").Value : precipitation.Attribute("value").Value,
+                PresipitationMax = (precipitation.Attribute("maxvalue") != null) ? precipitation.Attribute("maxvalue").Value : precipitation.Attribute("value").Value,
                 Temperature = temperature.Attribute("value").Value
             };
 

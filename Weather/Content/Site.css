@@ -342,10 +342,37 @@ div#title
 {
     color: Maroon;
     padding: 5px;
-    background: #cccc99
+    background: #cccc99;
 }
 
+.forecast h3
+{
+    color: Purple;
+    padding: 5px;
+    background: #cccc99;
+}
+
+
 .forecast p
+{
+    font-size: .8em;
+}
+
+.forecast_lt 
+{    
+    padding: 2px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;   
+}
+
+.forecast_lt h4
+{
+    color: Maroon;
+    padding: 5px;
+    background: #cccc99;
+}
+
+.forecast_lt p
 {
     font-size: .8em;
 }

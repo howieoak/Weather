@@ -1,0 +1,14 @@
+﻿@model IEnumerable<Weather.Model.Domain.Forecast>
+
+@{
+    ViewBag.Title = "Langtidsvarsel";
+    Weather.Model.Domain.Place place = (Model.FirstOrDefault()).Location; 
+}
+
+<h2>Laingtidsvarsel</h2>
+
+<h4>@place.PlaceName, @place.PlaceType, @place.County, @place.State </h4>
+
+@foreach(var forecast in Model) {
+     @Html.Partial("_ForecastLongTerm", forecast);      
+}

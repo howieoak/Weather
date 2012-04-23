@@ -56,6 +56,7 @@
   <ItemGroup>
     <Compile Include="Caching\CacheItem.cs" />
     <Compile Include="Caching\ExpiringCache.cs" />
+    <Compile Include="Common\ExtensionMethods.cs" />
     <Compile Include="Dao\Entities\PlaceNorway.cs" />
     <Compile Include="Dao\IPlacesNorwayDao.cs" />
     <Compile Include="Dao\PlacesNorwayDao.cs" />

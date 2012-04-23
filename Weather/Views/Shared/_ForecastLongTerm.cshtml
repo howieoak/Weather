@@ -1,0 +1,19 @@
+﻿@model Weather.Model.Domain.Forecast
+
+<div class="forecast_lt">
+    <h4>@Model.TimeFrom.ToString("D"), @Model.TimeFrom.ToShortTimeString() - @Model.TimeTo.ToShortTimeString()</h4>
+    <p>
+        <span id="temperature" style="color:Red; font-size:2.8em;">
+            @Model.Temperature&deg;
+        </span>
+        <span>
+            @Html.Image(Model.ImageUrl, Model.SymbolName)
+        </span>
+        <span id="presipitation">
+            @Model.PresipitationMin - @Model.PresipitationMax
+        </span>
+        @*<span class="right">
+            @Html.ActionLink("Langtidsvarsel", "ForecastLongTerm" , new { placeId = Model.Location })
+        </span>*@        
+    </p>
+</div>

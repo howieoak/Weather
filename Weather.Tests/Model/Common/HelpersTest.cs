@@ -68,5 +68,22 @@ namespace Weather.Tests.Model.Common
             Assert.AreEqual("03n", actual);
 
         }
+
+        [TestMethod]
+        public void CalculateDistanceTest()
+        {
+            double destLongitude = 10.7460923576733;  // jeg tror dette er min lokasjon i Oslo
+            double destLatitude = 59.912726542422;
+
+            double startLongitude = 12.0937602381878;  //  dette er http://www.yr.no/sted/Norge/Hedmark/Kongsvinger/Gjermshus/varsel.xml 
+            double startLatitude = 60.137353471887;
+
+            double distance = Helpers.CalculateDistance(startLatitude, startLongitude, destLatitude, destLongitude);   // gir 78,9 km
+
+            startLongitude = 10.2044912002555;                          // dette er http://www.yr.no/sted/Norge/Buskerud/Drammen/Drammen/varsel.xml
+            startLatitude = 59.7438903362171;
+
+            distance = Helpers.CalculateDistance(startLatitude, startLongitude, destLatitude, destLongitude);   // gir 35,61 km
+        }
     }
 }

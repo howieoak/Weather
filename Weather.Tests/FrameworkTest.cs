@@ -75,6 +75,21 @@ namespace Weather.Tests
             Assert.AreEqual("03n", fileName);
         }
 
+
+        [TestMethod]
+        public void DictionarySorting()
+        {
+            Dictionary<string, int> myDict = new Dictionary<string, int>();
+            myDict.Add("one", 1);
+            myDict.Add("four", 4);
+            myDict.Add("two", 2);
+            myDict.Add("three", 3);
+
+            //var sortedDict = (from entry in myDict orderby entry.Value ascending select entry).
+            //var sortedDict = myDict.OrderBy(x => x.Value).ToDictionary(x => x.Key, x => x.Value); 
+            var sortedDict = myDict.OrderBy(x => x.Value).ToDictionary(x => x.Key, x => x.Value);
+        }
+
          
     }
 }

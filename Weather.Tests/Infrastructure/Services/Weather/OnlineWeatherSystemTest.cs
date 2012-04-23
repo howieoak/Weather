@@ -43,12 +43,23 @@ namespace Weather.Tests.Infrastructure.Services.Weather
         }
 
         [TestMethod]
-        public void ForecastDataTest()
+        public void GetUpcommingForecastTest()
         {
             string forecastUri = "http://www.yr.no/sted/Norge/Oslo/Oslo/Vesletjern/varsel.xml";
             
             OnlineWeatherSystem target = new OnlineWeatherSystem();
-            Forecast result = target.ForcastData(new Place { ForecastUri = forecastUri });
+            Forecast result = target.GetUpcommingForecast(new Place { ForecastUri = forecastUri });
+
+            Assert.IsNotNull(result);
+        }
+
+        [TestMethod]
+        public void GetForecastsTest()
+        {
+            string forecastUri = "http://www.yr.no/sted/Norge/Oslo/Oslo/Vesletjern/varsel.xml";
+
+            OnlineWeatherSystem target = new OnlineWeatherSystem();
+            IList<Forecast> result = target.GetForecasts(new Place { ForecastUri = forecastUri });
 
             Assert.IsNotNull(result);
         }

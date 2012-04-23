@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Weather.Model.Common;
 
 namespace Weather.Model.Domain
 {
@@ -20,5 +21,10 @@ namespace Weather.Model.Domain
         public double PresipitationMin { get; set; }
         public double PresipitationMax { get; set; }
         public int Temperature { get; set; }
+
+        public void SetImageUrl(bool sizeBig)
+        {
+            ImageUrl = Helpers.WeatherImageUrl(SymbolVar, sizeBig);
+        }
     }
 }

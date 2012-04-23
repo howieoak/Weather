@@ -1,10 +1,10 @@
 ﻿@model Weather.Model.Domain.Forecast
 
 <div class="forecast">
-    <h4>@Model.LocationName, @Model.Location.PlaceType, @Model.Location.State </h4>
+    <h4>@Model.LocationName, @Model.Location.PlaceType, @Model.Location.County, @Model.Location.State </h4>
     <span>Tidsperiode: @Model.TimeFrom.ToShortTimeString() - @Model.TimeTo.ToShortTimeString()</span>
     <p>
-        <span id="temperature">
+        <span id="temperature" style="color:Red; font-size:2.8em;">
             @Model.Temperature&deg;
         </span>
         <span>
@@ -14,7 +14,14 @@
             @Model.PresipitationMin - @Model.PresipitationMax
         </span>
         <span class="right">
-            @Html.ActionLink("Tilbake til Weather", "Index")
-        </span>        
+            @Html.ActionLink("Langtidsvarsel", "ForecastLongTerm" , new { placeId = Model.Location.PlaceId })
+        </span>
     </p>
+@{
+    if (Model.Presipitation > 2.0)
+    {
+        <h3>Husk å ta med paraply !</h3>
+    }
+}        
+    
 </div>

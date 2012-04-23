@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
     <link href="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Content/css")" rel="stylesheet" type="text/css" />
-    <link href="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Content/themes/base/css")" rel="stylesheet" type="text/css" />
-    <script src="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/js")"></script>
+    <link href="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Content/themes/ui-lightness/css")" rel="stylesheet" type="text/css" />
+    @RenderSection("Style", false)
 </head>
 <body>
     <div class="page">
@@ -23,8 +23,8 @@
             <div id="menucontainer">                
                 <ul id="menu">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Product", "Index", "Product")</li>
-                    <li>@Html.ActionLink("Weather", "Index", "Weather")</li>
+                    <li>@Html.ActionLink("Langtidsvarsel", "Index", "Weather")</li>
+                    <li>@Html.ActionLink("Søk", "Places", "Location")</li>
                 </ul>                
             </div>
         </div>
@@ -36,5 +36,7 @@
             </div>
         </div>
     </div>
+     <script src="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/js")" type="text/javascript"></script>
+    @RenderSection("Script", false)
 </body>
 </html>

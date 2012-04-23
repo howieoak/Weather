@@ -3,9 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Globalization;
+using System.Collections;
 
 namespace Weather.Model.Common
 {
+    /// <summary>
+    /// These are model extension methods.
+    /// Working on model and plain clr objects.
+    /// </summary>
     public static class ExtensionMethods
     {
         /// <summary>
@@ -33,5 +38,14 @@ namespace Weather.Model.Common
 
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="arg"></param>
+        /// <returns></returns>
+        public static double ToRad(this double arg)
+        {
+            return arg * Math.PI / 180;
+        }
     }
 }

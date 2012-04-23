@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Net.Http;
 using Weather.Model.Common;
+using Weather.Infrastructure.Common;
 using Weather.Infrastructure.Xml;
 using Weather.Model.Domain;
 using Weather.Infrastructure.Services.Weather.Entities;
@@ -59,12 +60,20 @@ namespace Weather.Infrastructure.Services.Weather
         /// </summary>
         /// <param name="place"></param>
         /// <returns></returns>
-        public Forecast ForcastData(Place place)
+        public Forecast GetUpcommingForecast(Place place)
         {
-            ForecastDto forecastDto = YrXmlParser.GetForecastData(place);
+            ForecastDto forecastDto = YrXmlParser.GetUpcommingForecast(place);
 
             return forecastDto.ToForecast(place);    
         }
+
+        public IList<Forecast> GetForecasts(Place place)
+        {
+            IList<ForecastDto> forecastList = YrXmlParser.GetForecasts(place);
+
+            return forecastList.ToForecastList(place);
+        }
+
 
 
         //public void Countries()

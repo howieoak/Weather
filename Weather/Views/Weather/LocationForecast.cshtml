@@ -1,15 +1,20 @@
 ﻿@{
     ViewBag.Title = "Forecast";
+    AjaxOptions opts = new AjaxOptions
+    {
+        UpdateTargetId = "search_result",
+        HttpMethod = "POST",
+    };
 }
 
-<h2>Forecast</h2>
+<h2>Din nåværende posisjon</h2>
 
-
-@using (Html.BeginForm())
+@using (Ajax.BeginForm("LocationForecast", "Weather", opts))
 {
-    <p>Latitude: @Html.TextBox("Lat") </p>
-    <p>Longitude: @Html.TextBox("Lon") </p>
-    
-    <input type="submit" value="Forecast" />
+    <p>Latitude: <input type="text" id="latitude" name="latitude" /></p>
+    <p>Longitude: <input type="text" id="longitude" name="longitude" /></p>       
+    <input type="submit" id="search" value="Hent værvarsel for denne lokasjonen" />
 }
+
+<div id="search_result" />
 

@@ -10,6 +10,7 @@ namespace Weather.Infrastructure.Services.Weather
     {
         string Sunrise(double latitude, double longitude, string date);
         string LocationForecast(double latitude, double longitude);
-        Forecast ForcastData(Place place);
+        Forecast GetUpcommingForecast(Place place);
+        IList<Forecast> GetForecasts(Place place);
     }
 }

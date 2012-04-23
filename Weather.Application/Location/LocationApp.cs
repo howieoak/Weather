@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using Weather.Model.Domain;
-using Weather.Infrastructure.Services.Location;
 using System.Globalization;
+using Weather.Model.Domain;
+using Weather.Model.Common;
+using Weather.Infrastructure.Services.Location;
+using System.Collections;
 
 namespace Weather.Application.Location
 {
@@ -56,6 +56,21 @@ namespace Weather.Application.Location
             //var places = allPlaces.Where(x => x.PlaceName.StartsWith(query)).Select(r => new { label = r.PlaceName });
 
             return places;
+        }
+
+        public static Place GetClosestPlace(string countryCode, double latitude, double longitude)
+        {
+            Dictionary<Place,double> allDistances = new Dictionary<Place,double>();
+
+            IList<Place> allPlaces = LocationService.GetLocationSystem().GetAllPlaces(countryCode);
+
+            foreach (Place place in allPlaces)
+            {
+                double distance = Helpers.CalculateDistance(place.Latitude, place.Longitude, latitude, longitude);
+                allDistances.Add(place, distance);
+            }
+
+            return allDistances.OrderBy(x => x.Value).ToDictionary(x => x.Key, x => x.Value).Keys.First(); 
         }
     }
 }

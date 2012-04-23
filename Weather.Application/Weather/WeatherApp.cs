@@ -37,11 +37,16 @@ namespace Weather.Application.Weather
 
         public static Forecast GetWeatherForecast(Place place)
         {
-            Forecast forecast = WeatherService.GetWeatherSystem().ForcastData(place);
-
-            // sette imageUrl her?
+            Forecast forecast = WeatherService.GetWeatherSystem().GetUpcommingForecast(place);
 
             return forecast;
+        }
+
+        public static IList<Forecast> GetWeatherForecastLongTerm(Place place)
+        {
+            IList<Forecast> forecasts = WeatherService.GetWeatherSystem().GetForecasts(place);
+
+            return forecasts;
         }
     }
 }

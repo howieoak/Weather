@@ -8,6 +8,9 @@ using Weather.ModelBinders;
 using Weather.Model.Domain;
 using Weather.Application.Location;
 using Weather.Models;
+using Weather.Model.Common;
+using System.Collections;
+using Weather.Application.Common;
 //using System.Globalization;
 
 namespace Weather.Controllers
@@ -75,13 +78,16 @@ namespace Weather.Controllers
         }
 
         [HttpPost]
-        public ViewResult LocationForecast(String Lat, String Lon)
+        public ActionResult LocationForecast(String latitude, String longitude)
         {
-            if (ModelState.IsValid)
+            if (ModelState.IsValid && !string.IsNullOrEmpty(latitude) && !string.IsNullOrEmpty(longitude))
             {
-               
+                Place place = LocationApp.GetClosestPlace("NO", latitude.ToDoubleComma(), longitude.ToDoubleComma());
 
-                
+                Forecast forecast = WeatherApp.GetWeatherForecast(place);
+                forecast.SetImageUrl(true);
+
+                return PartialView("_ForecastUpcomming", forecast);
             }
 
             return View();
@@ -98,8 +104,7 @@ namespace Weather.Controllers
 
             Place place = LocationApp.GetPlace("NO", id.Value);
             Forecast forecast = WeatherApp.GetWeatherForecast(place);
-
-            forecast.ImageUrl = MyHelpers.WeatherImageUrl(forecast.SymbolVar); 
+            forecast.SetImageUrl(true); 
 
             return View(forecast);
         }
@@ -107,16 +112,28 @@ namespace Weather.Controllers
         public PartialViewResult ForecastUpcomming(string place)
         {
             string[] mySplit = place.Split(':');
-
             int placeId = Int32.Parse(mySplit[1]);
 
             Place myPlace = LocationApp.GetPlace("NO", placeId);
-
             Forecast forecast = WeatherApp.GetWeatherForecast(myPlace);
-
-            forecast.ImageUrl = MyHelpers.WeatherImageUrl(forecast.SymbolVar);
+            forecast.SetImageUrl(true);
 
             return PartialView("_ForecastUpcomming", forecast);
+        }
+
+        public ViewResult ForecastLongTerm(int? placeId)
+        {
+            IList<Forecast> forecasts = null;
+
+            if (placeId.HasValue)
+            {
+                Place place = LocationApp.GetPlace("NO", placeId.Value);
+                
+                forecasts = WeatherApp.GetWeatherForecastLongTerm(place);
+                forecasts.SetImageUrl(true);
+            }
+
+            return View(forecasts);
         }
 
     }

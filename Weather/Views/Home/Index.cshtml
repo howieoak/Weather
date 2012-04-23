@@ -1,33 +1,33 @@
 ﻿@{
     ViewBag.Title = "Paraply hjem";
-    AjaxOptions opts = new AjaxOptions
+    AjaxOptions locationOpts = new AjaxOptions
+    {
+        UpdateTargetId = "search_result",
+        HttpMethod = "POST",
+    };
+    AjaxOptions upCommingOpts = new AjaxOptions
     {
         UpdateTargetId = "search_result",
         HttpMethod = "GET",
     };
 }
-<h2>Nåværende værvarsel.</h2>
+<h2>Været i området der du er.</h2>
 
-
-@*
- @using (Ajax.BeginForm("Index", "Home", 
-            new AjaxOptions { HttpMethod = "GET", 
-                              InsertionMode = InsertionMode.Replace, 
-                              UpdateTargetId = "searchResults" }))
- {
-    <input name="q" type="text" />
-    <input type="submit" value="Search" />
- }
-
- @Html.Partial("_RestaurantList", Model)
-
-*@
-
-@using (Ajax.BeginForm("ForecastUpcomming", "Weather", opts))
+@using (Ajax.BeginForm("LocationForecast", "Weather", locationOpts))
 {
-    <span>Sted:</span>
-    <input type="text" name="place" data-autocomplete="@Url.Action("QuickSearch", "Location")" />       
-    <input type="submit" id="search" value="Vis varsel" />
+    <p>Latitude: <input type="text" id="latitude" name="latitude" /></p>
+    <p>Longitude: <input type="text" id="longitude" name="longitude" /></p>       
+    <input type="submit" id="search" value="Hent værvarsel for denne lokasjonen" />
+}
+
+<h2>Søk på sted.</h2>
+
+
+@using (Ajax.BeginForm("ForecastUpcomming", "Weather", upCommingOpts))
+{
+    
+    <p>Sted: <input type="text" name="place" data-autocomplete="@Url.Action("QuickSearch", "Location")" /> </p>
+    <input type="submit" id="search" value="Hent værvarsel for dette stedet" />
 }
 
 <div id="search_result" />
@@ -40,6 +40,6 @@
 
 @section Footer {
 
-    <p>This is the footer</p>    
+    <p>C Copyrights Paraply Inc. 2012-2020</p>    
 }
 
