@@ -1,0 +1,13 @@
+C:\GitRepositories\Weather\Weather.RestService\obj\Debug\ResolveAssemblyReference.cache
+C:\GitRepositories\Weather\Weather.RestService\bin\Weather.RestService.dll
+C:\GitRepositories\Weather\Weather.RestService\bin\Weather.RestService.pdb
+C:\GitRepositories\Weather\Weather.RestService\bin\Weather.Infrastructure.dll
+C:\GitRepositories\Weather\Weather.RestService\bin\Weather.Model.dll
+C:\GitRepositories\Weather\Weather.RestService\bin\Spring.Core.dll
+C:\GitRepositories\Weather\Weather.RestService\bin\Spring.Data.dll
+C:\GitRepositories\Weather\Weather.RestService\bin\Common.Logging.dll
+C:\GitRepositories\Weather\Weather.RestService\bin\Spring.Aop.dll
+C:\GitRepositories\Weather\Weather.RestService\bin\Weather.Infrastructure.pdb
+C:\GitRepositories\Weather\Weather.RestService\bin\Weather.Model.pdb
+C:\GitRepositories\Weather\Weather.RestService\obj\Debug\Weather.RestService.dll
+C:\GitRepositories\Weather\Weather.RestService\obj\Debug\Weather.RestService.pdb
